@@ -14,6 +14,7 @@ struct RectangleBasic: View {
             Text("This is a basic rectangle")
                 .padding()
             RectangleView(color: .white, large: false)
+                .padding()
         }
     }
 }
@@ -24,6 +25,7 @@ struct RectangleLarge: View {
             Text("This is a large rectangle")
                 .padding()
             RectangleView(color: .white, large: true)
+                .padding()
         }
     }
 }
@@ -34,6 +36,7 @@ struct RectangleRed: View {
             Text("This is a red rectangle")
                 .padding()
             RectangleView(color: .red, large: false)
+                .padding()
         }
     }
 }

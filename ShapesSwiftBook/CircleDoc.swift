@@ -13,6 +13,7 @@ struct CircleBlue: View {
         Text("A blue circle")
             .padding()
         CircleView(color: .blue)
+            .padding()
     }
 }
 
@@ -21,6 +22,7 @@ struct CircleRed: View {
         Text("A Red circle")
             .padding()
         CircleView(color: .red)
+            .padding()
     }
 }
 
