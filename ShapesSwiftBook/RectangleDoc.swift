@@ -38,10 +38,12 @@ struct RectangleRed: View {
     }
 }
 
-struct RectangleStories {
+struct RectangleDoc: SwiftBookDoc {
+    let title = "RectangleView"
+    
     let stories: [AnyView] = [
         AnyView(RectangleBasic()),
         AnyView(RectangleLarge()),
-        AnyView(RectangleRed())
+        AnyView(RectangleRed()),
     ]
 }

@@ -10,7 +10,10 @@ import SwiftBook
 
 struct ContentView: View {
     var body: some View {
-        SwiftBook(components: RectangleStories().stories)
+        SwiftBook(docs: [
+            CircleDoc(),
+            RectangleDoc(),
+        ])
     }
 }
 

@@ -18,9 +18,12 @@
 		F82597CF27531BEF0077CF95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82597CE27531BEF0077CF95 /* ContentView.swift */; };
 		F82597D127531BEF0077CF95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82597D027531BEF0077CF95 /* Assets.xcassets */; };
 		F82597D427531BEF0077CF95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82597D327531BEF0077CF95 /* Preview Assets.xcassets */; };
-		F82597DE27531C940077CF95 /* RectangleStories.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82597DD27531C940077CF95 /* RectangleStories.swift */; };
+		F82597DE27531C940077CF95 /* RectangleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82597DD27531C940077CF95 /* RectangleDoc.swift */; };
 		F82597DF27531CBE0077CF95 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82597C427531B8E0077CF95 /* RectangleView.swift */; };
 		F82597EB275321EB0077CF95 /* SwiftBook in Frameworks */ = {isa = PBXBuildFile; productRef = F82597EA275321EB0077CF95 /* SwiftBook */; };
+		F82597ED275322F20077CF95 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82597EC275322F20077CF95 /* CircleView.swift */; };
+		F82597EE275322F20077CF95 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82597EC275322F20077CF95 /* CircleView.swift */; };
+		F82597F0275323520077CF95 /* CircleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82597EF275323520077CF95 /* CircleDoc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +65,9 @@
 		F82597D327531BEF0077CF95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F82597D527531BEF0077CF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F82597D627531BEF0077CF95 /* ShapesSwiftBook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShapesSwiftBook.entitlements; sourceTree = "<group>"; };
-		F82597DD27531C940077CF95 /* RectangleStories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleStories.swift; sourceTree = "<group>"; };
+		F82597DD27531C940077CF95 /* RectangleDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleDoc.swift; sourceTree = "<group>"; };
+		F82597EC275322F20077CF95 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		F82597EF275323520077CF95 /* CircleDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleDoc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +132,7 @@
 				F825979827531B570077CF95 /* ShapesApp.swift */,
 				F825979A27531B570077CF95 /* ContentView.swift */,
 				F82597C427531B8E0077CF95 /* RectangleView.swift */,
+				F82597EC275322F20077CF95 /* CircleView.swift */,
 				F825979C27531B580077CF95 /* Assets.xcassets */,
 				F82597A127531B580077CF95 /* Info.plist */,
 				F82597A227531B580077CF95 /* Shapes.entitlements */,
@@ -166,7 +172,8 @@
 			children = (
 				F82597CC27531BEF0077CF95 /* ShapesSwiftBookApp.swift */,
 				F82597CE27531BEF0077CF95 /* ContentView.swift */,
-				F82597DD27531C940077CF95 /* RectangleStories.swift */,
+				F82597DD27531C940077CF95 /* RectangleDoc.swift */,
+				F82597EF275323520077CF95 /* CircleDoc.swift */,
 				F82597D027531BEF0077CF95 /* Assets.xcassets */,
 				F82597D527531BEF0077CF95 /* Info.plist */,
 				F82597D627531BEF0077CF95 /* ShapesSwiftBook.entitlements */,
@@ -356,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F825979B27531B570077CF95 /* ContentView.swift in Sources */,
+				F82597ED275322F20077CF95 /* CircleView.swift in Sources */,
 				F825979927531B570077CF95 /* ShapesApp.swift in Sources */,
 				F82597C527531B8E0077CF95 /* RectangleView.swift in Sources */,
 			);
@@ -382,9 +390,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F82597DF27531CBE0077CF95 /* RectangleView.swift in Sources */,
-				F82597DE27531C940077CF95 /* RectangleStories.swift in Sources */,
+				F82597DE27531C940077CF95 /* RectangleDoc.swift in Sources */,
 				F82597CF27531BEF0077CF95 /* ContentView.swift in Sources */,
+				F82597F0275323520077CF95 /* CircleDoc.swift in Sources */,
 				F82597CD27531BEF0077CF95 /* ShapesSwiftBookApp.swift in Sources */,
+				F82597EE275322F20077CF95 /* CircleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
