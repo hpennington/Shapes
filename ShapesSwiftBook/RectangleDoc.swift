@@ -9,11 +9,14 @@ import SwiftUI
 import SwiftBook
 
 struct RectangleBasic: View {
+    @Binding var color: Color
+    @Binding var large: Bool
+    
     var body: some View {
         VStack {
             Text("This is a basic rectangle")
                 .padding()
-            RectangleView(color: .white, large: false)
+            RectangleView(color: color, large: large)
                 .padding()
         }
     }
@@ -44,9 +47,14 @@ struct RectangleRed: View {
 struct RectangleDoc: SwiftBookDoc {
     let title = "RectangleView"
     
-    let stories: [AnyView] = [
-        AnyView(RectangleBasic()),
-        AnyView(RectangleLarge()),
-        AnyView(RectangleRed()),
-    ]
+    @Binding var rectangleBasicColor: Color
+    @Binding var rectangleBasicLarge: Bool
+    
+    var stories: [AnyView] {
+        return [
+            AnyView(RectangleBasic(color: $rectangleBasicColor, large: $rectangleBasicLarge)),
+            AnyView(RectangleLarge()),
+            AnyView(RectangleRed()),
+        ]
+    }
 }

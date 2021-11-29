@@ -11,10 +11,6 @@ import SwiftBook
 struct CircleBlue: View {
     @Binding var color: Color
     
-    init(color: Binding<Color>) {
-        self._color = color
-    }
-    
     var body: some View {
         Text("A blue circle")
             .padding()
@@ -25,10 +21,6 @@ struct CircleBlue: View {
 
 struct CircleRed: View {
     @Binding var color: Color
-    
-    init(color: Binding<Color>) {
-        self._color = color
-    }
     
     var body: some View {
         Text("A Red circle")
@@ -43,12 +35,7 @@ struct CircleDoc: SwiftBookDoc {
     
     @Binding var circleBlueColor: Color
     @Binding var circleRedColor: Color
-    
-    init(circleBlueColor: Binding<Color>, circleRedColor: Binding<Color>) {
-        self._circleBlueColor = circleBlueColor
-        self._circleRedColor = circleRedColor
-    }
-    
+
     var stories: [AnyView] {
         return [
             AnyView(CircleBlue(color: $circleBlueColor)),

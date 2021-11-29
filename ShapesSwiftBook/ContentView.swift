@@ -9,19 +9,33 @@ import SwiftUI
 import SwiftBook
 
 struct ContentView: View {
-    @State var colors = [Color.blue, Color.red]
+    @State var circleDocBlueColor = Color.blue
+    @State var circleDocRedColor = Color.red
+    @State var rectangleDocBasicColor = Color.orange
+    @State var rectangleDocBasicLarge = false
     
     var body: some View {
-        SwiftBookControlsColor(colors: $colors)
-        SwiftBook(docs: [
-            CircleDoc(circleBlueColor: $colors[0], circleRedColor: $colors[1]),
-            RectangleDoc(),
-        ], colors: $colors)
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+        SwiftBook(
+            docs: [
+                CircleDoc(circleBlueColor: $circleDocBlueColor, circleRedColor: $circleDocRedColor),
+                RectangleDoc(rectangleBasicColor: $rectangleDocBasicColor, rectangleBasicLarge: $rectangleDocBasicLarge),
+            ],
+            controls: [
+                [
+                    [
+                        AnyView(SwiftBookControlColor(color: $circleDocBlueColor)),
+                    ],
+                    [
+                        AnyView(SwiftBookControlColor(color: $circleDocRedColor)),
+                    ],
+                ],
+                [
+                    [
+                        AnyView(SwiftBookControlColor(color: $rectangleDocBasicColor)),
+                        AnyView(SwiftBookControlToggle(active: $rectangleDocBasicLarge)),
+                    ],
+                ],
+            ]
+        )
     }
 }
