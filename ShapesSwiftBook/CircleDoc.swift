@@ -23,8 +23,8 @@ struct CircleRed: View {
     @Binding var color: Color
     
     var body: some View {
-        Text("A Red circle")
-            .padding()
+        H1("A red circle")
+        P("This is a description of a red circle.")
         CircleView(color: color)
             .padding()
     }

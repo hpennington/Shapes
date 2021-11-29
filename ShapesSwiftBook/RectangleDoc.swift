@@ -14,8 +14,7 @@ struct RectangleBasic: View {
     
     var body: some View {
         VStack {
-            Text("This is a basic rectangle")
-                .padding()
+            P("This is a basic rectangle")
             RectangleView(color: color, large: large)
                 .padding()
         }
@@ -28,8 +27,7 @@ struct RectangleLarge: View {
     
     var body: some View {
         VStack {
-            Text("This is a large rectangle")
-                .padding()
+            P("This is a large rectangle")
             RectangleView(color: color, large: large)
                 .padding()
         }
@@ -42,8 +40,7 @@ struct RectangleRed: View {
     
     var body: some View {
         VStack {
-            Text("This is a red rectangle")
-                .padding()
+            P("This is a red rectangle")
             RectangleView(color: color, large: large)
                 .padding()
         }
