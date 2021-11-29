@@ -9,16 +9,23 @@ import SwiftUI
 
 struct CircleView: View {
     let color: Color
+    let label: String
+    let labelColor: Color
     
     var body: some View {
-        Circle()
-            .frame(width: 300, height: 300, alignment: .center)
-            .foregroundColor(color)
+        ZStack {
+            Circle()
+                .frame(width: 300, height: 300, alignment: .center)
+                .foregroundColor(color)
+            Text(label)
+                .foregroundColor(labelColor)
+                .font(.headline)
+        }
     }
 }
 
 struct CircleView_Previews: PreviewProvider {
     static var previews: some View {
-        CircleView(color: .red)
+        CircleView(color: .red, label: "Preview", labelColor: .primary)
     }
 }
