@@ -32,7 +32,7 @@ struct ContentView: View {
                 [
                     [
                         AnyView(SwiftBookControlColor(color: $rectangleDocBasicColor)),
-                        AnyView(SwiftBookControlToggle(active: $rectangleDocBasicLarge)),
+                        AnyView(SwiftBookControlToggle(active: $rectangleDocBasicLarge, title: "Large")),
                     ],
                 ],
             ]
