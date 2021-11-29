@@ -24,10 +24,10 @@ struct ContentView: View {
                 CircleDoc(
                     controls: [
                         [
-                            AnyView(SwiftBookControlColor(color: $circleDocBlueColor)),
+                            AnyView(SwiftBookControlColor(color: $circleDocBlueColor, title: "color")),
                         ],
                         [
-                            AnyView(SwiftBookControlColor(color: $circleDocRedColor)),
+                            AnyView(SwiftBookControlColor(color: $circleDocRedColor, title: "color")),
                         ],
                     ],
                     circleBlueColor: $circleDocBlueColor,
@@ -36,16 +36,16 @@ struct ContentView: View {
                 RectangleDoc(
                     controls: [
                         [
-                            AnyView(SwiftBookControlColor(color: $rectangleDocBasicColor)),
-                            AnyView(SwiftBookControlToggle(active: $rectangleDocBasicLarge, title: "Large")),
+                            AnyView(SwiftBookControlColor(color: $rectangleDocBasicColor, title: "color")),
+                            AnyView(SwiftBookControlToggle(active: $rectangleDocBasicLarge, title: "large")),
                         ],
                         [
-                            AnyView(SwiftBookControlColor(color: $rectangleDocLargeColor)),
-                            AnyView(SwiftBookControlToggle(active: $rectangleDocLargeLarge, title: "Large")),
+                            AnyView(SwiftBookControlColor(color: $rectangleDocLargeColor, title: "color")),
+                            AnyView(SwiftBookControlToggle(active: $rectangleDocLargeLarge, title: "large")),
                         ],
                         [
-                            AnyView(SwiftBookControlColor(color: $rectangleDocRedColor)),
-                            AnyView(SwiftBookControlToggle(active: $rectangleDocRedLarge, title: "Large")),
+                            AnyView(SwiftBookControlColor(color: $rectangleDocRedColor, title: "color")),
+                            AnyView(SwiftBookControlToggle(active: $rectangleDocRedLarge, title: "large")),
                         ],
                     ],
                     rectangleBasicColor: $rectangleDocBasicColor,
