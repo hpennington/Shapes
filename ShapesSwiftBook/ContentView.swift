@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftBook
 
 struct ContentView: View {
-    @State var colors = [Color.red, Color.blue]
+    @State var colors = [Color.blue, Color.red]
     
     var body: some View {
         SwiftBookControlsColor(colors: $colors)
