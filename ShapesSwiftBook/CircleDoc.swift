@@ -12,8 +12,8 @@ struct CircleBlue: View {
     @Binding var color: Color
     
     var body: some View {
-        Text("A blue circle")
-            .padding()
+        H1("A blue circle")
+        P("This is a description of a blue circle.")
         CircleView(color: color)
             .padding()
     }
@@ -32,6 +32,10 @@ struct CircleRed: View {
 
 struct CircleDoc: SwiftBookDoc {
     let title = "CircleView"
+    let controls: [[AnyView]]
+    let argsTable: [SwiftBookArgRow] = [
+        SwiftBookArgRow(title: "color", description: "The color of the circle", type: .color)
+    ]
     
     @Binding var circleBlueColor: Color
     @Binding var circleRedColor: Color

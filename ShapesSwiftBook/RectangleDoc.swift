@@ -23,22 +23,28 @@ struct RectangleBasic: View {
 }
 
 struct RectangleLarge: View {
+    @Binding var color: Color
+    @Binding var large: Bool
+    
     var body: some View {
         VStack {
             Text("This is a large rectangle")
                 .padding()
-            RectangleView(color: .white, large: true)
+            RectangleView(color: color, large: large)
                 .padding()
         }
     }
 }
 
 struct RectangleRed: View {
+    @Binding var color: Color
+    @Binding var large: Bool
+    
     var body: some View {
         VStack {
             Text("This is a red rectangle")
                 .padding()
-            RectangleView(color: .red, large: false)
+            RectangleView(color: color, large: large)
                 .padding()
         }
     }
@@ -46,15 +52,27 @@ struct RectangleRed: View {
 
 struct RectangleDoc: SwiftBookDoc {
     let title = "RectangleView"
+    let controls: [[AnyView]]
+    
+    let argsTable: [SwiftBookArgRow] = [
+        SwiftBookArgRow(title: "color", description: "The color of the rectangle", type: .color),
+        SwiftBookArgRow(title: "large", description: "Determines the size of the rectangle", type: .bool),
+    ]
     
     @Binding var rectangleBasicColor: Color
     @Binding var rectangleBasicLarge: Bool
     
+    @Binding var rectangleLargeColor: Color
+    @Binding var rectangleLargeLarge: Bool
+    
+    @Binding var rectangleRedColor: Color
+    @Binding var rectangleRedLarge: Bool
+    
     var stories: [AnyView] {
         return [
             AnyView(RectangleBasic(color: $rectangleBasicColor, large: $rectangleBasicLarge)),
-            AnyView(RectangleLarge()),
-            AnyView(RectangleRed()),
+            AnyView(RectangleLarge(color: $rectangleLargeColor, large: $rectangleLargeLarge)),
+            AnyView(RectangleRed(color: $rectangleRedColor, large: $rectangleRedLarge)),
         ]
     }
 }
