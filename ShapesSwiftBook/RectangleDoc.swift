@@ -51,30 +51,35 @@ struct RectangleRed: View {
 }
 
 struct RectangleDoc: SwiftBookDoc {
-    let title = "RectangleView"
-    let description = "A rectangular view"
-    
-    let controls: [[AnyView]]
+    let controls: [[AnyView]] = []
     
     let argsTable: [SwiftBookArgRow] = [
         SwiftBookArgRow(title: "color", description: "The color of the rectangle", type: .color),
         SwiftBookArgRow(title: "large", description: "Determines the size of the rectangle", type: .bool),
     ]
     
-    @Binding var rectangleBasicColor: Color
-    @Binding var rectangleBasicLarge: Bool
+    @State var rectangleBasicColor: Color = .orange
+    @State var rectangleBasicLarge: Bool = false
     
-    @Binding var rectangleLargeColor: Color
-    @Binding var rectangleLargeLarge: Bool
+    @State var rectangleLargeColor: Color = .white
+    @State var rectangleLargeLarge: Bool = true
     
-    @Binding var rectangleRedColor: Color
-    @Binding var rectangleRedLarge: Bool
+    @State var rectangleRedColor: Color = .red
+    @State var rectangleRedLarge: Bool = false
     
-    var stories: [AnyView] {
-        return [
-            AnyView(RectangleBasic(color: $rectangleBasicColor, large: $rectangleBasicLarge)),
-            AnyView(RectangleLarge(color: $rectangleLargeColor, large: $rectangleLargeLarge)),
-            AnyView(RectangleRed(color: $rectangleRedColor, large: $rectangleRedLarge)),
-        ]
+    var body: some View {
+        VStack {
+            H1("RectangleView")
+            P("A rectangular View")
+            RectangleBasic(color: $rectangleBasicColor, large: $rectangleBasicLarge)
+            RectangleLarge(color: $rectangleLargeColor, large: $rectangleLargeLarge)
+            RectangleRed(color: $rectangleRedColor, large: $rectangleRedLarge)
+        }
+    }
+}
+
+struct RectangleDocPreview: PreviewProvider {
+    static var previews: some View {
+        RectangleDoc()
     }
 }

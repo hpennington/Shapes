@@ -16,7 +16,7 @@ struct CircleBlue: View {
     var body: some View {
         VStack(alignment: .leading) {
             HStack(alignment: .center) {
-                H1("We love a good blue circle")
+                H2("We love a good blue circle")
                     .fixedSize()
                 Image.init(systemName: "heart.fill")
                     .foregroundColor(.red)
@@ -39,7 +39,7 @@ struct CircleRed: View {
     @Binding var labelColor: Color
     
     var body: some View {
-        H1("A red circle")
+        H2("A red circle")
         H3("This is a description of a red circle.")
         SwiftBookComponent {
             CircleView(color: color, label: label, labelColor: labelColor)
@@ -48,28 +48,34 @@ struct CircleRed: View {
 }
 
 struct CircleDoc: SwiftBookDoc {
-    let title = "CircleView"
-    let description = "A View which is a circle."
-    let controls: [[AnyView]]
+    let controls: [[AnyView]] = []
     let argsTable: [SwiftBookArgRow] = [
         SwiftBookArgRow(title: "color", description: "The color of the circle", type: .color),
         SwiftBookArgRow(title: "label", description: "The label to display on the circle", type: .string),
         SwiftBookArgRow(title: "labelColor", description: "The color of the label", type: .color),
     ]
     
-    @Binding var circleBlueColor: Color
-    @Binding var circleRedColor: Color
+    @State private var circleBlueColor: Color = .blue
+    @State private var circleRedColor: Color = .red
     
-    @Binding var circleBlueLabel: String
-    @Binding var circleRedLabel: String
+    @State private var circleBlueLabel: String = "Blue circle"
+    @State private var circleRedLabel: String = "Red circle"
     
-    @Binding var circleBlueLabelColor: Color
-    @Binding var circleRedLabelColor: Color
+    @State private var circleBlueLabelColor: Color = .primary
+    @State private var circleRedLabelColor: Color = .primary
 
-    var stories: [AnyView] {
-        return [
-            AnyView(CircleBlue(color: $circleBlueColor, label: $circleBlueLabel, labelColor: $circleBlueLabelColor)),
-            AnyView(CircleRed(color: $circleRedColor, label: $circleRedLabel, labelColor: $circleRedLabelColor)),
-        ]
+    var body: some View {
+        VStack {
+            H1("CircleView")
+            P("A View which is a circle.")
+            CircleBlue(color: $circleBlueColor, label: $circleBlueLabel, labelColor: $circleBlueLabelColor)
+            CircleRed(color: $circleRedColor, label: $circleRedLabel, labelColor: $circleRedLabelColor)
+        }
+    }
+}
+
+struct CircleDocPreview: PreviewProvider {
+    static var previews: some View {
+        CircleDoc()
     }
 }
