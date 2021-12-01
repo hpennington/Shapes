@@ -51,11 +51,6 @@ struct RectangleRed: View {
 }
 
 struct RectangleDoc: View {
-    let argsTable: [SwiftBookArgRow] = [
-        SwiftBookArgRow(title: "color", description: "The color of the rectangle", type: .color),
-        SwiftBookArgRow(title: "large", description: "Determines the size of the rectangle", type: .bool),
-    ]
-    
     @State var rectangleBasicColor: Color = .orange
     @State var rectangleBasicLarge: Bool = false
     
@@ -64,6 +59,16 @@ struct RectangleDoc: View {
     
     @State var rectangleRedColor: Color = .red
     @State var rectangleRedLarge: Bool = false
+    
+    @ViewBuilder
+    func argsTableView() -> some View {
+        ArgsTable {
+            VStack {
+                SwiftBookArgRow(title: "color", description: "The color of the rectangle", type: .color)
+                SwiftBookArgRow(title: "large", description: "Determines the size of the rectangle", type: .bool)
+            }
+        }
+    }
     
     var body: some View {
         VStack {
@@ -77,7 +82,7 @@ struct RectangleDoc: View {
                     SwiftBookControlColor(color: $rectangleBasicColor, title: "color")
                     SwiftBookControlToggle(active: $rectangleBasicLarge, title: "large")
                 }
-                ArgsTable(argsTable: argsTable)
+                argsTableView()
             }
             Spacer(minLength: 50)
             VStack {
@@ -86,7 +91,7 @@ struct RectangleDoc: View {
                     SwiftBookControlColor(color: $rectangleLargeColor, title: "color")
                     SwiftBookControlToggle(active: $rectangleLargeLarge, title: "large")
                 }
-                ArgsTable(argsTable: argsTable)
+                argsTableView()
             }
             Spacer(minLength: 50)
             VStack {
@@ -95,7 +100,7 @@ struct RectangleDoc: View {
                     SwiftBookControlColor(color: $rectangleRedColor, title: "color")
                     SwiftBookControlToggle(active: $rectangleRedLarge, title: "large")
                 }
-                ArgsTable(argsTable: argsTable)
+                argsTableView()
             }
         }
     }

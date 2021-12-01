@@ -48,12 +48,6 @@ struct CircleRed: View {
 }
 
 struct CircleDoc: View {
-    let argsTable: [SwiftBookArgRow] = [
-        SwiftBookArgRow(title: "color", description: "The color of the circle", type: .color),
-        SwiftBookArgRow(title: "label", description: "The label to display on the circle", type: .string),
-        SwiftBookArgRow(title: "labelColor", description: "The color of the label", type: .color),
-    ]
-    
     @State private var circleBlueColor: Color = .blue
     @State private var circleRedColor: Color = .red
     
@@ -62,6 +56,17 @@ struct CircleDoc: View {
     
     @State private var circleBlueLabelColor: Color = .primary
     @State private var circleRedLabelColor: Color = .primary
+    
+    @ViewBuilder
+    func argsTableView() -> some View {
+        ArgsTable {
+            VStack {
+                SwiftBookArgRow(title: "color", description: "The color of the circle", type: .color)
+                SwiftBookArgRow(title: "label", description: "The label to display on the circle", type: .string)
+                SwiftBookArgRow(title: "labelColor", description: "The color of the label", type: .color)
+            }
+        }
+    }
     
     var body: some View {
         VStack {
@@ -74,7 +79,7 @@ struct CircleDoc: View {
                     SwiftBookControlColor(color: $circleBlueLabelColor, title: "labelColor")
                     SwiftBookControlText(text: $circleBlueLabel, label: "label")
                 }
-                ArgsTable(argsTable: argsTable)
+                argsTableView()
             }
             Spacer(minLength: 50)
             VStack {
@@ -84,7 +89,7 @@ struct CircleDoc: View {
                     SwiftBookControlColor(color: $circleRedLabelColor, title: "labelColor")
                     SwiftBookControlText(text: $circleRedLabel, label: "label")
                 }
-                ArgsTable(argsTable: argsTable)
+                argsTableView()
             }
         }
     }
