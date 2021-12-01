@@ -62,7 +62,7 @@ struct RectangleDoc: View {
     
     @ViewBuilder
     func argsTableView() -> some View {
-        ArgsTable {
+        SwiftBookArgsTable {
             VStack {
                 SwiftBookArgRow(title: "color", description: "The color of the rectangle", type: .color)
                 SwiftBookArgRow(title: "large", description: "Determines the size of the rectangle", type: .bool)

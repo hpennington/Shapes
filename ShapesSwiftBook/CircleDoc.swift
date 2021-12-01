@@ -59,7 +59,7 @@ struct CircleDoc: View {
     
     @ViewBuilder
     func argsTableView() -> some View {
-        ArgsTable {
+        SwiftBookArgsTable {
             VStack {
                 SwiftBookArgRow(title: "color", description: "The color of the circle", type: .color)
                 SwiftBookArgRow(title: "label", description: "The label to display on the circle", type: .string)
