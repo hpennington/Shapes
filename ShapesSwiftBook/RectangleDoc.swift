@@ -79,6 +79,7 @@ struct RectangleDoc: View {
                 }
                 ArgsTable(argsTable: argsTable)
             }
+            Spacer(minLength: 50)
             VStack {
                 RectangleLarge(color: $rectangleLargeColor, large: $rectangleLargeLarge)
                 HStack {
@@ -87,6 +88,7 @@ struct RectangleDoc: View {
                 }
                 ArgsTable(argsTable: argsTable)
             }
+            Spacer(minLength: 50)
             VStack {
                 RectangleRed(color: $rectangleRedColor, large: $rectangleRedLarge)
                 HStack {

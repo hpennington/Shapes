@@ -76,6 +76,7 @@ struct CircleDoc: View {
                 }
                 ArgsTable(argsTable: argsTable)
             }
+            Spacer(minLength: 50)
             VStack {
                 CircleRed(color: $circleRedColor, label: $circleRedLabel, labelColor: $circleRedLabelColor)
                 HStack {
