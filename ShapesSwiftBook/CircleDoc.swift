@@ -47,8 +47,9 @@ struct CircleRed: View {
     }
 }
 
-struct CircleDoc: SwiftBookDoc {
-    let controls: [[AnyView]] = []
+struct CircleDoc: View {
+    @Environment(\.colorScheme) var colorScheme
+    
     let argsTable: [SwiftBookArgRow] = [
         SwiftBookArgRow(title: "color", description: "The color of the circle", type: .color),
         SwiftBookArgRow(title: "label", description: "The label to display on the circle", type: .string),
@@ -63,19 +64,25 @@ struct CircleDoc: SwiftBookDoc {
     
     @State private var circleBlueLabelColor: Color = .primary
     @State private var circleRedLabelColor: Color = .primary
-
+    
     var body: some View {
         VStack {
             H1("CircleView")
             P("A View which is a circle.")
             CircleBlue(color: $circleBlueColor, label: $circleBlueLabel, labelColor: $circleBlueLabelColor)
+            HStack {
+                SwiftBookControlColor(color: $circleBlueColor, title: "color")
+                SwiftBookControlColor(color: $circleBlueLabelColor, title: "labelColor")
+                SwiftBookControlText(text: $circleBlueLabel, label: "label")
+            }
+            ArgsTable(argsTable: argsTable)
             CircleRed(color: $circleRedColor, label: $circleRedLabel, labelColor: $circleRedLabelColor)
+            HStack {
+                SwiftBookControlColor(color: $circleRedColor, title: "color")
+                SwiftBookControlColor(color: $circleRedLabelColor, title: "labelColor")
+                SwiftBookControlText(text: $circleRedLabel, label: "label")
+            }
+            ArgsTable(argsTable: argsTable)
         }
-    }
-}
-
-struct CircleDocPreview: PreviewProvider {
-    static var previews: some View {
-        CircleDoc()
     }
 }

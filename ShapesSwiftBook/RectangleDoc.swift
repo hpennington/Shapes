@@ -50,9 +50,7 @@ struct RectangleRed: View {
     }
 }
 
-struct RectangleDoc: SwiftBookDoc {
-    let controls: [[AnyView]] = []
-    
+struct RectangleDoc: View {
     let argsTable: [SwiftBookArgRow] = [
         SwiftBookArgRow(title: "color", description: "The color of the rectangle", type: .color),
         SwiftBookArgRow(title: "large", description: "Determines the size of the rectangle", type: .bool),
@@ -69,17 +67,34 @@ struct RectangleDoc: SwiftBookDoc {
     
     var body: some View {
         VStack {
-            H1("RectangleView")
-            P("A rectangular View")
-            RectangleBasic(color: $rectangleBasicColor, large: $rectangleBasicLarge)
-            RectangleLarge(color: $rectangleLargeColor, large: $rectangleLargeLarge)
-            RectangleRed(color: $rectangleRedColor, large: $rectangleRedLarge)
+            VStack {
+                H1("RectangleView")
+                P("A rectangular View")
+            }
+            VStack {
+                RectangleBasic(color: $rectangleBasicColor, large: $rectangleBasicLarge)
+                HStack {
+                    SwiftBookControlColor(color: $rectangleBasicColor, title: "color")
+                    SwiftBookControlToggle(active: $rectangleBasicLarge, title: "large")
+                }
+                ArgsTable(argsTable: argsTable)
+            }
+            VStack {
+                RectangleLarge(color: $rectangleLargeColor, large: $rectangleLargeLarge)
+                HStack {
+                    SwiftBookControlColor(color: $rectangleLargeColor, title: "color")
+                    SwiftBookControlToggle(active: $rectangleLargeLarge, title: "large")
+                }
+                ArgsTable(argsTable: argsTable)
+            }
+            VStack {
+                RectangleRed(color: $rectangleRedColor, large: $rectangleRedLarge)
+                HStack {
+                    SwiftBookControlColor(color: $rectangleRedColor, title: "color")
+                    SwiftBookControlToggle(active: $rectangleRedLarge, title: "large")
+                }
+                ArgsTable(argsTable: argsTable)
+            }
         }
-    }
-}
-
-struct RectangleDocPreview: PreviewProvider {
-    static var previews: some View {
-        RectangleDoc()
     }
 }
