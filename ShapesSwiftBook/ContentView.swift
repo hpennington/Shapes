@@ -9,16 +9,23 @@ import SwiftUI
 import SwiftBook
 
 struct ContentView: View {
+    @State private var document: DocumentType = .circleView
     
+    // Called when a navigation cell is clicked.
+    func onNavChange(document: String) {
+        if let documentType = DocumentType.init(rawValue: document) {
+            self.document = documentType
+        }
+    }
+    
+    // Add a case for every document
     enum DocumentType: String, CaseIterable {
         case circleView = "CircleView"
         case rectangleView = "RectangleView"
     }
     
-    @State private var document: DocumentType = .circleView
-    
     var body: some View {
-        SwiftBook(titles: DocumentType.allCases.map { $0.rawValue }) {
+        SwiftBook(titles: DocumentType.allCases.map { $0.rawValue }, onNavChange: self.onNavChange) {
             switch(document) {
             case .circleView:
                 CircleDoc()

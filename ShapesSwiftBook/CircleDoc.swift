@@ -48,8 +48,6 @@ struct CircleRed: View {
 }
 
 struct CircleDoc: View {
-    @Environment(\.colorScheme) var colorScheme
-    
     let argsTable: [SwiftBookArgRow] = [
         SwiftBookArgRow(title: "color", description: "The color of the circle", type: .color),
         SwiftBookArgRow(title: "label", description: "The label to display on the circle", type: .string),
@@ -69,20 +67,24 @@ struct CircleDoc: View {
         VStack {
             H1("CircleView")
             P("A View which is a circle.")
-            CircleBlue(color: $circleBlueColor, label: $circleBlueLabel, labelColor: $circleBlueLabelColor)
-            HStack {
-                SwiftBookControlColor(color: $circleBlueColor, title: "color")
-                SwiftBookControlColor(color: $circleBlueLabelColor, title: "labelColor")
-                SwiftBookControlText(text: $circleBlueLabel, label: "label")
+            VStack {
+                CircleBlue(color: $circleBlueColor, label: $circleBlueLabel, labelColor: $circleBlueLabelColor)
+                HStack {
+                    SwiftBookControlColor(color: $circleBlueColor, title: "color")
+                    SwiftBookControlColor(color: $circleBlueLabelColor, title: "labelColor")
+                    SwiftBookControlText(text: $circleBlueLabel, label: "label")
+                }
+                ArgsTable(argsTable: argsTable)
             }
-            ArgsTable(argsTable: argsTable)
-            CircleRed(color: $circleRedColor, label: $circleRedLabel, labelColor: $circleRedLabelColor)
-            HStack {
-                SwiftBookControlColor(color: $circleRedColor, title: "color")
-                SwiftBookControlColor(color: $circleRedLabelColor, title: "labelColor")
-                SwiftBookControlText(text: $circleRedLabel, label: "label")
+            VStack {
+                CircleRed(color: $circleRedColor, label: $circleRedLabel, labelColor: $circleRedLabelColor)
+                HStack {
+                    SwiftBookControlColor(color: $circleRedColor, title: "color")
+                    SwiftBookControlColor(color: $circleRedLabelColor, title: "labelColor")
+                    SwiftBookControlText(text: $circleRedLabel, label: "label")
+                }
+                ArgsTable(argsTable: argsTable)
             }
-            ArgsTable(argsTable: argsTable)
         }
     }
 }
