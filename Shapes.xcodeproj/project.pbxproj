@@ -7,206 +7,143 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F825979927531B570077CF95 /* ShapesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F825979827531B570077CF95 /* ShapesApp.swift */; };
-		F825979B27531B570077CF95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F825979A27531B570077CF95 /* ContentView.swift */; };
-		F825979D27531B580077CF95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F825979C27531B580077CF95 /* Assets.xcassets */; };
-		F82597A027531B580077CF95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F825979F27531B580077CF95 /* Preview Assets.xcassets */; };
-		F82597AC27531B580077CF95 /* ShapesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82597AB27531B580077CF95 /* ShapesTests.swift */; };
-		F82597B727531B580077CF95 /* ShapesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82597B627531B580077CF95 /* ShapesUITests.swift */; };
-		F82597C527531B8E0077CF95 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82597C427531B8E0077CF95 /* RectangleView.swift */; };
-		F82597CD27531BEF0077CF95 /* ShapesSwiftBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82597CC27531BEF0077CF95 /* ShapesSwiftBookApp.swift */; };
-		F82597CF27531BEF0077CF95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82597CE27531BEF0077CF95 /* ContentView.swift */; };
-		F82597D127531BEF0077CF95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82597D027531BEF0077CF95 /* Assets.xcassets */; };
-		F82597D427531BEF0077CF95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82597D327531BEF0077CF95 /* Preview Assets.xcassets */; };
-		F82597DE27531C940077CF95 /* RectangleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82597DD27531C940077CF95 /* RectangleDoc.swift */; };
-		F82597DF27531CBE0077CF95 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82597C427531B8E0077CF95 /* RectangleView.swift */; };
-		F82597EB275321EB0077CF95 /* SwiftBook in Frameworks */ = {isa = PBXBuildFile; productRef = F82597EA275321EB0077CF95 /* SwiftBook */; };
-		F82597ED275322F20077CF95 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82597EC275322F20077CF95 /* CircleView.swift */; };
-		F82597EE275322F20077CF95 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82597EC275322F20077CF95 /* CircleView.swift */; };
-		F82597F0275323520077CF95 /* CircleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82597EF275323520077CF95 /* CircleDoc.swift */; };
+		F87159DA275835D600FFFA16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87159D9275835D600FFFA16 /* AppDelegate.swift */; };
+		F87159DC275835D600FFFA16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87159DB275835D600FFFA16 /* ContentView.swift */; };
+		F87159DE275835D700FFFA16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87159DD275835D700FFFA16 /* Assets.xcassets */; };
+		F87159E1275835D700FFFA16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87159E0275835D700FFFA16 /* Preview Assets.xcassets */; };
+		F87159E4275835D700FFFA16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87159E2275835D700FFFA16 /* Main.storyboard */; };
+		F87159F32758365800FFFA16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87159F22758365800FFFA16 /* AppDelegate.swift */; };
+		F87159F52758365800FFFA16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87159F42758365800FFFA16 /* ContentView.swift */; };
+		F87159F72758365900FFFA16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87159F62758365900FFFA16 /* Assets.xcassets */; };
+		F87159FA2758365900FFFA16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87159F92758365900FFFA16 /* Preview Assets.xcassets */; };
+		F87159FD2758365900FFFA16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87159FB2758365900FFFA16 /* Main.storyboard */; };
+		F8715A052758368000FFFA16 /* SwiftBook in Frameworks */ = {isa = PBXBuildFile; productRef = F8715A042758368000FFFA16 /* SwiftBook */; };
+		F8715A08275836B500FFFA16 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A06275836B500FFFA16 /* RectangleView.swift */; };
+		F8715A09275836B500FFFA16 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A06275836B500FFFA16 /* RectangleView.swift */; };
+		F8715A0A275836B500FFFA16 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A07275836B500FFFA16 /* CircleView.swift */; };
+		F8715A0B275836B500FFFA16 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A07275836B500FFFA16 /* CircleView.swift */; };
+		F8715A0E275836FF00FFFA16 /* CircleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0C275836FF00FFFA16 /* CircleDoc.swift */; };
+		F8715A0F275836FF00FFFA16 /* RectangleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F82597A827531B580077CF95 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F825978D27531B570077CF95 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F825979427531B570077CF95;
-			remoteInfo = Shapes;
-		};
-		F82597B327531B580077CF95 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F825978D27531B570077CF95 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F825979427531B570077CF95;
-			remoteInfo = Shapes;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		F825979527531B570077CF95 /* Shapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F825979827531B570077CF95 /* ShapesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesApp.swift; sourceTree = "<group>"; };
-		F825979A27531B570077CF95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F825979C27531B580077CF95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F825979F27531B580077CF95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F82597A127531B580077CF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F82597A227531B580077CF95 /* Shapes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Shapes.entitlements; sourceTree = "<group>"; };
-		F82597A727531B580077CF95 /* ShapesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShapesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F82597AB27531B580077CF95 /* ShapesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesTests.swift; sourceTree = "<group>"; };
-		F82597AD27531B580077CF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F82597B227531B580077CF95 /* ShapesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShapesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F82597B627531B580077CF95 /* ShapesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesUITests.swift; sourceTree = "<group>"; };
-		F82597B827531B580077CF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F82597C427531B8E0077CF95 /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
-		F82597CA27531BEF0077CF95 /* ShapesSwiftBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapesSwiftBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F82597CC27531BEF0077CF95 /* ShapesSwiftBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesSwiftBookApp.swift; sourceTree = "<group>"; };
-		F82597CE27531BEF0077CF95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F82597D027531BEF0077CF95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F82597D327531BEF0077CF95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F82597D527531BEF0077CF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F82597D627531BEF0077CF95 /* ShapesSwiftBook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShapesSwiftBook.entitlements; sourceTree = "<group>"; };
-		F82597DD27531C940077CF95 /* RectangleDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleDoc.swift; sourceTree = "<group>"; };
-		F82597EC275322F20077CF95 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
-		F82597EF275323520077CF95 /* CircleDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleDoc.swift; sourceTree = "<group>"; };
+		F87159D6275835D600FFFA16 /* Shapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87159D9275835D600FFFA16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F87159DB275835D600FFFA16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F87159DD275835D700FFFA16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F87159E0275835D700FFFA16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F87159E3275835D700FFFA16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F87159E5275835D700FFFA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F87159E6275835D700FFFA16 /* Shapes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Shapes.entitlements; sourceTree = "<group>"; };
+		F87159F02758365800FFFA16 /* ShapesSwiftBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapesSwiftBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87159F22758365800FFFA16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F87159F42758365800FFFA16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F87159F62758365900FFFA16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F87159F92758365900FFFA16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F87159FC2758365900FFFA16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F87159FE2758365900FFFA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F87159FF2758365900FFFA16 /* ShapesSwiftBook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShapesSwiftBook.entitlements; sourceTree = "<group>"; };
+		F8715A06275836B500FFFA16 /* RectangleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
+		F8715A07275836B500FFFA16 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		F8715A0C275836FF00FFFA16 /* CircleDoc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleDoc.swift; sourceTree = "<group>"; };
+		F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleDoc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F825979227531B570077CF95 /* Frameworks */ = {
+		F87159D3275835D600FFFA16 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F82597A427531B580077CF95 /* Frameworks */ = {
+		F87159ED2758365800FFFA16 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F82597AF27531B580077CF95 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F82597C727531BEF0077CF95 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F82597EB275321EB0077CF95 /* SwiftBook in Frameworks */,
+				F8715A052758368000FFFA16 /* SwiftBook in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F825978C27531B570077CF95 = {
+		F87159CD275835D600FFFA16 = {
 			isa = PBXGroup;
 			children = (
-				F825979727531B570077CF95 /* Shapes */,
-				F82597AA27531B580077CF95 /* ShapesTests */,
-				F82597B527531B580077CF95 /* ShapesUITests */,
-				F82597CB27531BEF0077CF95 /* ShapesSwiftBook */,
-				F825979627531B570077CF95 /* Products */,
-				F82597E2275321230077CF95 /* Frameworks */,
+				F87159D8275835D600FFFA16 /* Shapes */,
+				F87159F12758365800FFFA16 /* ShapesSwiftBook */,
+				F87159D7275835D600FFFA16 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F825979627531B570077CF95 /* Products */ = {
+		F87159D7275835D600FFFA16 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F825979527531B570077CF95 /* Shapes.app */,
-				F82597A727531B580077CF95 /* ShapesTests.xctest */,
-				F82597B227531B580077CF95 /* ShapesUITests.xctest */,
-				F82597CA27531BEF0077CF95 /* ShapesSwiftBook.app */,
+				F87159D6275835D600FFFA16 /* Shapes.app */,
+				F87159F02758365800FFFA16 /* ShapesSwiftBook.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F825979727531B570077CF95 /* Shapes */ = {
+		F87159D8275835D600FFFA16 /* Shapes */ = {
 			isa = PBXGroup;
 			children = (
-				F825979827531B570077CF95 /* ShapesApp.swift */,
-				F825979A27531B570077CF95 /* ContentView.swift */,
-				F82597C427531B8E0077CF95 /* RectangleView.swift */,
-				F82597EC275322F20077CF95 /* CircleView.swift */,
-				F825979C27531B580077CF95 /* Assets.xcassets */,
-				F82597A127531B580077CF95 /* Info.plist */,
-				F82597A227531B580077CF95 /* Shapes.entitlements */,
-				F825979E27531B580077CF95 /* Preview Content */,
+				F8715A07275836B500FFFA16 /* CircleView.swift */,
+				F8715A06275836B500FFFA16 /* RectangleView.swift */,
+				F87159D9275835D600FFFA16 /* AppDelegate.swift */,
+				F87159DB275835D600FFFA16 /* ContentView.swift */,
+				F87159DD275835D700FFFA16 /* Assets.xcassets */,
+				F87159E2275835D700FFFA16 /* Main.storyboard */,
+				F87159E5275835D700FFFA16 /* Info.plist */,
+				F87159E6275835D700FFFA16 /* Shapes.entitlements */,
+				F87159DF275835D700FFFA16 /* Preview Content */,
 			);
 			path = Shapes;
 			sourceTree = "<group>";
 		};
-		F825979E27531B580077CF95 /* Preview Content */ = {
+		F87159DF275835D700FFFA16 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				F825979F27531B580077CF95 /* Preview Assets.xcassets */,
+				F87159E0275835D700FFFA16 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		F82597AA27531B580077CF95 /* ShapesTests */ = {
+		F87159F12758365800FFFA16 /* ShapesSwiftBook */ = {
 			isa = PBXGroup;
 			children = (
-				F82597AB27531B580077CF95 /* ShapesTests.swift */,
-				F82597AD27531B580077CF95 /* Info.plist */,
-			);
-			path = ShapesTests;
-			sourceTree = "<group>";
-		};
-		F82597B527531B580077CF95 /* ShapesUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F82597B627531B580077CF95 /* ShapesUITests.swift */,
-				F82597B827531B580077CF95 /* Info.plist */,
-			);
-			path = ShapesUITests;
-			sourceTree = "<group>";
-		};
-		F82597CB27531BEF0077CF95 /* ShapesSwiftBook */ = {
-			isa = PBXGroup;
-			children = (
-				F82597CC27531BEF0077CF95 /* ShapesSwiftBookApp.swift */,
-				F82597CE27531BEF0077CF95 /* ContentView.swift */,
-				F82597DD27531C940077CF95 /* RectangleDoc.swift */,
-				F82597EF275323520077CF95 /* CircleDoc.swift */,
-				F82597D027531BEF0077CF95 /* Assets.xcassets */,
-				F82597D527531BEF0077CF95 /* Info.plist */,
-				F82597D627531BEF0077CF95 /* ShapesSwiftBook.entitlements */,
-				F82597D227531BEF0077CF95 /* Preview Content */,
+				F87159F22758365800FFFA16 /* AppDelegate.swift */,
+				F87159F42758365800FFFA16 /* ContentView.swift */,
+				F8715A0C275836FF00FFFA16 /* CircleDoc.swift */,
+				F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */,
+				F87159F62758365900FFFA16 /* Assets.xcassets */,
+				F87159FB2758365900FFFA16 /* Main.storyboard */,
+				F87159FE2758365900FFFA16 /* Info.plist */,
+				F87159FF2758365900FFFA16 /* ShapesSwiftBook.entitlements */,
+				F87159F82758365900FFFA16 /* Preview Content */,
 			);
 			path = ShapesSwiftBook;
 			sourceTree = "<group>";
 		};
-		F82597D227531BEF0077CF95 /* Preview Content */ = {
+		F87159F82758365900FFFA16 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				F82597D327531BEF0077CF95 /* Preview Assets.xcassets */,
+				F87159F92758365900FFFA16 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		F82597E2275321230077CF95 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F825979427531B570077CF95 /* Shapes */ = {
+		F87159D5275835D600FFFA16 /* Shapes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F82597BB27531B580077CF95 /* Build configuration list for PBXNativeTarget "Shapes" */;
+			buildConfigurationList = F87159E9275835D700FFFA16 /* Build configuration list for PBXNativeTarget "Shapes" */;
 			buildPhases = (
-				F825979127531B570077CF95 /* Sources */,
-				F825979227531B570077CF95 /* Frameworks */,
-				F825979327531B570077CF95 /* Resources */,
+				F87159D2275835D600FFFA16 /* Sources */,
+				F87159D3275835D600FFFA16 /* Frameworks */,
+				F87159D4275835D600FFFA16 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -214,52 +151,16 @@
 			);
 			name = Shapes;
 			productName = Shapes;
-			productReference = F825979527531B570077CF95 /* Shapes.app */;
+			productReference = F87159D6275835D600FFFA16 /* Shapes.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F82597A627531B580077CF95 /* ShapesTests */ = {
+		F87159EF2758365800FFFA16 /* ShapesSwiftBook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F82597BE27531B580077CF95 /* Build configuration list for PBXNativeTarget "ShapesTests" */;
+			buildConfigurationList = F8715A002758365900FFFA16 /* Build configuration list for PBXNativeTarget "ShapesSwiftBook" */;
 			buildPhases = (
-				F82597A327531B580077CF95 /* Sources */,
-				F82597A427531B580077CF95 /* Frameworks */,
-				F82597A527531B580077CF95 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F82597A927531B580077CF95 /* PBXTargetDependency */,
-			);
-			name = ShapesTests;
-			productName = ShapesTests;
-			productReference = F82597A727531B580077CF95 /* ShapesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F82597B127531B580077CF95 /* ShapesUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F82597C127531B580077CF95 /* Build configuration list for PBXNativeTarget "ShapesUITests" */;
-			buildPhases = (
-				F82597AE27531B580077CF95 /* Sources */,
-				F82597AF27531B580077CF95 /* Frameworks */,
-				F82597B027531B580077CF95 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F82597B427531B580077CF95 /* PBXTargetDependency */,
-			);
-			name = ShapesUITests;
-			productName = ShapesUITests;
-			productReference = F82597B227531B580077CF95 /* ShapesUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		F82597C927531BEF0077CF95 /* ShapesSwiftBook */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F82597D727531BEF0077CF95 /* Build configuration list for PBXNativeTarget "ShapesSwiftBook" */;
-			buildPhases = (
-				F82597C627531BEF0077CF95 /* Sources */,
-				F82597C727531BEF0077CF95 /* Frameworks */,
-				F82597C827531BEF0077CF95 /* Resources */,
+				F87159EC2758365800FFFA16 /* Sources */,
+				F87159ED2758365800FFFA16 /* Frameworks */,
+				F87159EE2758365800FFFA16 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -267,38 +168,30 @@
 			);
 			name = ShapesSwiftBook;
 			packageProductDependencies = (
-				F82597EA275321EB0077CF95 /* SwiftBook */,
+				F8715A042758368000FFFA16 /* SwiftBook */,
 			);
 			productName = ShapesSwiftBook;
-			productReference = F82597CA27531BEF0077CF95 /* ShapesSwiftBook.app */;
+			productReference = F87159F02758365800FFFA16 /* ShapesSwiftBook.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F825978D27531B570077CF95 /* Project object */ = {
+		F87159CE275835D600FFFA16 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					F825979427531B570077CF95 = {
+					F87159D5275835D600FFFA16 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
-					F82597A627531B580077CF95 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = F825979427531B570077CF95;
-					};
-					F82597B127531B580077CF95 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = F825979427531B570077CF95;
-					};
-					F82597C927531BEF0077CF95 = {
+					F87159EF2758365800FFFA16 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = F825979027531B570077CF95 /* Build configuration list for PBXProject "Shapes" */;
+			buildConfigurationList = F87159D1275835D600FFFA16 /* Build configuration list for PBXProject "Shapes" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -306,115 +199,91 @@
 				en,
 				Base,
 			);
-			mainGroup = F825978C27531B570077CF95;
+			mainGroup = F87159CD275835D600FFFA16;
 			packageReferences = (
-				F82597E7275321BF0077CF95 /* XCRemoteSwiftPackageReference "swiftbooklib" */,
+				F8715A032758368000FFFA16 /* XCRemoteSwiftPackageReference "swiftbook" */,
 			);
-			productRefGroup = F825979627531B570077CF95 /* Products */;
+			productRefGroup = F87159D7275835D600FFFA16 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F825979427531B570077CF95 /* Shapes */,
-				F82597A627531B580077CF95 /* ShapesTests */,
-				F82597B127531B580077CF95 /* ShapesUITests */,
-				F82597C927531BEF0077CF95 /* ShapesSwiftBook */,
+				F87159D5275835D600FFFA16 /* Shapes */,
+				F87159EF2758365800FFFA16 /* ShapesSwiftBook */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F825979327531B570077CF95 /* Resources */ = {
+		F87159D4275835D600FFFA16 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F82597A027531B580077CF95 /* Preview Assets.xcassets in Resources */,
-				F825979D27531B580077CF95 /* Assets.xcassets in Resources */,
+				F87159E4275835D700FFFA16 /* Main.storyboard in Resources */,
+				F87159E1275835D700FFFA16 /* Preview Assets.xcassets in Resources */,
+				F87159DE275835D700FFFA16 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F82597A527531B580077CF95 /* Resources */ = {
+		F87159EE2758365800FFFA16 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F82597B027531B580077CF95 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F82597C827531BEF0077CF95 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F82597D427531BEF0077CF95 /* Preview Assets.xcassets in Resources */,
-				F82597D127531BEF0077CF95 /* Assets.xcassets in Resources */,
+				F87159FD2758365900FFFA16 /* Main.storyboard in Resources */,
+				F87159FA2758365900FFFA16 /* Preview Assets.xcassets in Resources */,
+				F87159F72758365900FFFA16 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F825979127531B570077CF95 /* Sources */ = {
+		F87159D2275835D600FFFA16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F825979B27531B570077CF95 /* ContentView.swift in Sources */,
-				F82597ED275322F20077CF95 /* CircleView.swift in Sources */,
-				F825979927531B570077CF95 /* ShapesApp.swift in Sources */,
-				F82597C527531B8E0077CF95 /* RectangleView.swift in Sources */,
+				F8715A0A275836B500FFFA16 /* CircleView.swift in Sources */,
+				F87159DC275835D600FFFA16 /* ContentView.swift in Sources */,
+				F87159DA275835D600FFFA16 /* AppDelegate.swift in Sources */,
+				F8715A08275836B500FFFA16 /* RectangleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F82597A327531B580077CF95 /* Sources */ = {
+		F87159EC2758365800FFFA16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F82597AC27531B580077CF95 /* ShapesTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F82597AE27531B580077CF95 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F82597B727531B580077CF95 /* ShapesUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F82597C627531BEF0077CF95 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F82597DF27531CBE0077CF95 /* RectangleView.swift in Sources */,
-				F82597DE27531C940077CF95 /* RectangleDoc.swift in Sources */,
-				F82597CF27531BEF0077CF95 /* ContentView.swift in Sources */,
-				F82597F0275323520077CF95 /* CircleDoc.swift in Sources */,
-				F82597CD27531BEF0077CF95 /* ShapesSwiftBookApp.swift in Sources */,
-				F82597EE275322F20077CF95 /* CircleView.swift in Sources */,
+				F8715A0B275836B500FFFA16 /* CircleView.swift in Sources */,
+				F87159F52758365800FFFA16 /* ContentView.swift in Sources */,
+				F87159F32758365800FFFA16 /* AppDelegate.swift in Sources */,
+				F8715A09275836B500FFFA16 /* RectangleView.swift in Sources */,
+				F8715A0F275836FF00FFFA16 /* RectangleDoc.swift in Sources */,
+				F8715A0E275836FF00FFFA16 /* CircleDoc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		F82597A927531B580077CF95 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F825979427531B570077CF95 /* Shapes */;
-			targetProxy = F82597A827531B580077CF95 /* PBXContainerItemProxy */;
+/* Begin PBXVariantGroup section */
+		F87159E2275835D700FFFA16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F87159E3275835D700FFFA16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
 		};
-		F82597B427531B580077CF95 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F825979427531B570077CF95 /* Shapes */;
-			targetProxy = F82597B327531B580077CF95 /* PBXContainerItemProxy */;
+		F87159FB2758365900FFFA16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F87159FC2758365900FFFA16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
 		};
-/* End PBXTargetDependency section */
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F82597B927531B580077CF95 /* Debug */ = {
+		F87159E7275835D700FFFA16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -475,7 +344,7 @@
 			};
 			name = Debug;
 		};
-		F82597BA27531B580077CF95 /* Release */ = {
+		F87159E8275835D700FFFA16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -529,7 +398,7 @@
 			};
 			name = Release;
 		};
-		F82597BC27531B580077CF95 /* Debug */ = {
+		F87159EA275835D700FFFA16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -546,14 +415,14 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralstudio.Shapes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		F82597BD27531B580077CF95 /* Release */ = {
+		F87159EB275835D700FFFA16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -570,98 +439,14 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralstudio.Shapes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		F82597BF27531B580077CF95 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3EZ5UQTGVP;
-				INFOPLIST_FILE = ShapesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralstudio.ShapesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shapes.app/Contents/MacOS/Shapes";
-			};
-			name = Debug;
-		};
-		F82597C027531B580077CF95 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3EZ5UQTGVP;
-				INFOPLIST_FILE = ShapesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralstudio.ShapesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shapes.app/Contents/MacOS/Shapes";
-			};
-			name = Release;
-		};
-		F82597C227531B580077CF95 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3EZ5UQTGVP;
-				INFOPLIST_FILE = ShapesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralstudio.ShapesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = Shapes;
-			};
-			name = Debug;
-		};
-		F82597C327531B580077CF95 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3EZ5UQTGVP;
-				INFOPLIST_FILE = ShapesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralstudio.ShapesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = Shapes;
-			};
-			name = Release;
-		};
-		F82597D827531BEF0077CF95 /* Debug */ = {
+		F8715A012758365900FFFA16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -678,14 +463,14 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralstudio.ShapesSwiftBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		F82597D927531BEF0077CF95 /* Release */ = {
+		F8715A022758365900FFFA16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -702,7 +487,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralstudio.ShapesSwiftBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -712,47 +497,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F825979027531B570077CF95 /* Build configuration list for PBXProject "Shapes" */ = {
+		F87159D1275835D600FFFA16 /* Build configuration list for PBXProject "Shapes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F82597B927531B580077CF95 /* Debug */,
-				F82597BA27531B580077CF95 /* Release */,
+				F87159E7275835D700FFFA16 /* Debug */,
+				F87159E8275835D700FFFA16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F82597BB27531B580077CF95 /* Build configuration list for PBXNativeTarget "Shapes" */ = {
+		F87159E9275835D700FFFA16 /* Build configuration list for PBXNativeTarget "Shapes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F82597BC27531B580077CF95 /* Debug */,
-				F82597BD27531B580077CF95 /* Release */,
+				F87159EA275835D700FFFA16 /* Debug */,
+				F87159EB275835D700FFFA16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F82597BE27531B580077CF95 /* Build configuration list for PBXNativeTarget "ShapesTests" */ = {
+		F8715A002758365900FFFA16 /* Build configuration list for PBXNativeTarget "ShapesSwiftBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F82597BF27531B580077CF95 /* Debug */,
-				F82597C027531B580077CF95 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F82597C127531B580077CF95 /* Build configuration list for PBXNativeTarget "ShapesUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F82597C227531B580077CF95 /* Debug */,
-				F82597C327531B580077CF95 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F82597D727531BEF0077CF95 /* Build configuration list for PBXNativeTarget "ShapesSwiftBook" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F82597D827531BEF0077CF95 /* Debug */,
-				F82597D927531BEF0077CF95 /* Release */,
+				F8715A012758365900FFFA16 /* Debug */,
+				F8715A022758365900FFFA16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -760,23 +527,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F82597E7275321BF0077CF95 /* XCRemoteSwiftPackageReference "swiftbooklib" */ = {
+		F8715A032758368000FFFA16 /* XCRemoteSwiftPackageReference "swiftbook" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://gitlab.com/haydenpennington/swiftbooklib.git";
+			repositoryURL = "https://gitlab.com/haydenpennington/swiftbook.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
+				minimumVersion = 1.0.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F82597EA275321EB0077CF95 /* SwiftBook */ = {
+		F8715A042758368000FFFA16 /* SwiftBook */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F82597E7275321BF0077CF95 /* XCRemoteSwiftPackageReference "swiftbooklib" */;
+			package = F8715A032758368000FFFA16 /* XCRemoteSwiftPackageReference "swiftbook" */;
 			productName = SwiftBook;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = F825978D27531B570077CF95 /* Project object */;
+	rootObject = F87159CE275835D600FFFA16 /* Project object */;
 }

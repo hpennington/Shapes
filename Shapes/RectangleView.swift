@@ -8,13 +8,8 @@
 import SwiftUI
 
 struct RectangleView: View {
-    var color: Color
-    var large: Bool
-    
-    init(color: Color, large: Bool) {
-        self.color = color
-        self.large = large
-    }
+    let color: Color
+    let large: Bool
     
     var body: some View {
         Rectangle()
