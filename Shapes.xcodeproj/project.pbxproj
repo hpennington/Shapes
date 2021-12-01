@@ -68,7 +68,6 @@
 		F82597DD27531C940077CF95 /* RectangleDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleDoc.swift; sourceTree = "<group>"; };
 		F82597EC275322F20077CF95 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		F82597EF275323520077CF95 /* CircleDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleDoc.swift; sourceTree = "<group>"; };
-		F87159B42757CC5600FFFA16 /* swiftbooklib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = swiftbooklib; path = ../swiftbooklib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +106,6 @@
 		F825978C27531B570077CF95 = {
 			isa = PBXGroup;
 			children = (
-				F87159B42757CC5600FFFA16 /* swiftbooklib */,
 				F825979727531B570077CF95 /* Shapes */,
 				F82597AA27531B580077CF95 /* ShapesTests */,
 				F82597B527531B580077CF95 /* ShapesUITests */,
