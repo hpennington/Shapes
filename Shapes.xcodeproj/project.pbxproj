@@ -531,8 +531,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://gitlab.com/haydenpennington/swiftbook.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.1;
+				branch = snapshot;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
