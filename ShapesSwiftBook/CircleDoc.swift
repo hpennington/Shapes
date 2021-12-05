@@ -74,7 +74,6 @@ struct CircleDoc: SwiftBookDoc {
         self._takeSnapshot = takeSnapshot
     }
     
-    @ViewBuilder
     func argsTableView() -> some View {
         SwiftBookArgsTable {
             VStack {
