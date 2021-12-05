@@ -14,7 +14,7 @@ struct RectangleBasic: SwiftBookStory {
     @Binding var takeSnapshot: Bool
     
     var component: SwiftBookComponent<RectangleView> {
-        SwiftBookComponent(takeSnapshot: $takeSnapshot, frame: CGSize(width: 1000, height: 1000)) {
+        SwiftBookComponent(takeSnapshot: $takeSnapshot, frame: CGSize(width: 2000, height: 600)) {
             RectangleView(color: color, large: large)
         }
     }
@@ -33,7 +33,7 @@ struct RectangleLarge: SwiftBookStory {
     @Binding var takeSnapshot: Bool
     
     var component: SwiftBookComponent<RectangleView> {
-        SwiftBookComponent(takeSnapshot: $takeSnapshot, frame: CGSize(width: 1000, height: 1000)) {
+        SwiftBookComponent(takeSnapshot: $takeSnapshot, frame: CGSize(width: 2000, height: 600)) {
             RectangleView(color: color, large: large)
         }
     }
@@ -52,7 +52,7 @@ struct RectangleRed: SwiftBookStory {
     @Binding var takeSnapshot: Bool
     
     var component: SwiftBookComponent<RectangleView> {
-        SwiftBookComponent(takeSnapshot: $takeSnapshot, frame: CGSize(width: 1000, height: 1000)) {
+        SwiftBookComponent(takeSnapshot: $takeSnapshot, frame: CGSize(width: 2000, height: 600)) {
             RectangleView(color: color, large: large)
         }
     }
@@ -106,7 +106,7 @@ struct RectangleDoc: SwiftBookDoc {
                 }
                 argsTableView()
             }
-            Spacer(minLength: 50)
+            Spacer(minLength: 100)
             VStack {
                 RectangleLarge(color: $rectangleLargeColor, large: $rectangleLargeLarge, takeSnapshot: $takeSnapshot)
                 HStack {
@@ -115,7 +115,7 @@ struct RectangleDoc: SwiftBookDoc {
                 }
                 argsTableView()
             }
-            Spacer(minLength: 50)
+            Spacer(minLength: 100)
             VStack {
                 RectangleRed(color: $rectangleRedColor, large: $rectangleRedLarge, takeSnapshot: $takeSnapshot)
                 HStack {

@@ -14,7 +14,7 @@ struct RectangleView: View {
     var body: some View {
         Rectangle()
             .foregroundColor(self.color)
-            .frame(width: self.large ? 500 : 300, height: self.large ? 500 : 300, alignment: .center)
+            .frame(width: self.large ? 2000 : 300, height: self.large ? 500 : 300, alignment: .center)
     }
 }
 

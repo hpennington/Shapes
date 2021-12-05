@@ -97,7 +97,7 @@ struct CircleDoc: SwiftBookDoc {
                 }
                 argsTableView()
             }
-            Spacer(minLength: 50)
+            Spacer(minLength: 100)
             VStack {
                 CircleRed(color: $circleRedColor, label: $circleRedLabel, labelColor: $circleRedLabelColor, takeSnapshot: $takeSnapshot)
                 HStack {
