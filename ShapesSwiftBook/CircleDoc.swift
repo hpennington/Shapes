@@ -15,7 +15,7 @@ struct CircleBlue: SwiftBookStory {
     @Binding var takeSnapshot: Bool
     
     var component: SwiftBookComponent<CircleView> {
-        SwiftBookComponent(takeSnapshot: $takeSnapshot) {
+        SwiftBookComponent(takeSnapshot: $takeSnapshot, frame: CGSize(width: 1000, height: 1000)) {
             CircleView(color: color, label: label, labelColor: labelColor)
         }
     }
@@ -44,7 +44,7 @@ struct CircleRed: SwiftBookStory {
     @Binding var takeSnapshot: Bool
     
     var component: SwiftBookComponent<CircleView> {
-        SwiftBookComponent(takeSnapshot: $takeSnapshot) {
+        SwiftBookComponent(takeSnapshot: $takeSnapshot, frame: CGSize(width: 1000, height: 1000)) {
             CircleView(color: color, label: label, labelColor: labelColor)
         }
     }

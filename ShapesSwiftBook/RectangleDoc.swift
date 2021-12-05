@@ -14,7 +14,7 @@ struct RectangleBasic: SwiftBookStory {
     @Binding var takeSnapshot: Bool
     
     var component: SwiftBookComponent<RectangleView> {
-        SwiftBookComponent(takeSnapshot: $takeSnapshot) {
+        SwiftBookComponent(takeSnapshot: $takeSnapshot, frame: CGSize(width: 1000, height: 1000)) {
             RectangleView(color: color, large: large)
         }
     }
@@ -33,7 +33,7 @@ struct RectangleLarge: SwiftBookStory {
     @Binding var takeSnapshot: Bool
     
     var component: SwiftBookComponent<RectangleView> {
-        SwiftBookComponent(takeSnapshot: $takeSnapshot) {
+        SwiftBookComponent(takeSnapshot: $takeSnapshot, frame: CGSize(width: 1000, height: 1000)) {
             RectangleView(color: color, large: large)
         }
     }
@@ -52,7 +52,7 @@ struct RectangleRed: SwiftBookStory {
     @Binding var takeSnapshot: Bool
     
     var component: SwiftBookComponent<RectangleView> {
-        SwiftBookComponent(takeSnapshot: $takeSnapshot) {
+        SwiftBookComponent(takeSnapshot: $takeSnapshot, frame: CGSize(width: 1000, height: 1000)) {
             RectangleView(color: color, large: large)
         }
     }
