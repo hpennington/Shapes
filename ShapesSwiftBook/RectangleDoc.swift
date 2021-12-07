@@ -8,7 +8,7 @@
 import SwiftUI
 import SwiftBook
 
-struct RectangleBasic: SwiftBookStory {
+struct RectangleBasic: View {
     @Binding var color: Color
     @Binding var large: Bool
     @Binding var takeSnapshot: Bool
@@ -27,7 +27,7 @@ struct RectangleBasic: SwiftBookStory {
     }
 }
 
-struct RectangleLarge: SwiftBookStory {
+struct RectangleLarge: View {
     @Binding var color: Color
     @Binding var large: Bool
     @Binding var takeSnapshot: Bool
@@ -46,7 +46,7 @@ struct RectangleLarge: SwiftBookStory {
     }
 }
 
-struct RectangleRed: SwiftBookStory {
+struct RectangleRed: View {
     @Binding var color: Color
     @Binding var large: Bool
     @Binding var takeSnapshot: Bool
@@ -65,8 +65,7 @@ struct RectangleRed: SwiftBookStory {
     }
 }
 
-struct RectangleDoc: SwiftBookDoc {
-    typealias SwiftBookStory = AnyView
+struct RectangleDoc: View {
     
     @Binding var takeSnapshot: Bool
     

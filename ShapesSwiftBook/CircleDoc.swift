@@ -8,7 +8,7 @@
 import SwiftUI
 import SwiftBook
 
-struct CircleBlue: SwiftBookStory {
+struct CircleBlue: View {
     @Binding var color: Color
     @Binding var label: String
     @Binding var labelColor: Color
@@ -37,7 +37,7 @@ struct CircleBlue: SwiftBookStory {
     }
 }
 
-struct CircleRed: SwiftBookStory {
+struct CircleRed: View {
     @Binding var color: Color
     @Binding var label: String
     @Binding var labelColor: Color
@@ -56,7 +56,7 @@ struct CircleRed: SwiftBookStory {
     }
 }
 
-struct CircleDoc: SwiftBookDoc {
+struct CircleDoc: View {
     typealias SwiftBookStory = AnyView
     
     @Binding var takeSnapshot: Bool
