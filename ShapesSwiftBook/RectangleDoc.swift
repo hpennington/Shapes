@@ -13,17 +13,13 @@ struct RectangleBasic: View {
     @Binding var large: Bool
     @Binding var takeSnapshot: Bool
     
-    var component: SwiftBookComponent<RectangleView> {
-        SwiftBookComponent(takeSnapshot: $takeSnapshot, frame: CGSize(width: 2000, height: 600)) {
-            RectangleView(color: color, large: large)
-        }
-    }
-    
     var body: some View {
         H3("This is a basic rectangle")
         P("It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.")
         P("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.")
-        component
+        SwiftBookComponent(takeSnapshot: $takeSnapshot, frame: CGSize(width: 2000, height: 600)) {
+            RectangleView(color: color, large: large)
+        }
     }
 }
 
@@ -32,17 +28,13 @@ struct RectangleLarge: View {
     @Binding var large: Bool
     @Binding var takeSnapshot: Bool
     
-    var component: SwiftBookComponent<RectangleView> {
-        SwiftBookComponent(takeSnapshot: $takeSnapshot, frame: CGSize(width: 2000, height: 600)) {
-            RectangleView(color: color, large: large)
-        }
-    }
-    
     var body: some View {
         H3("This is a large rectangle")
         P("It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.")
         P("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.")
-        component
+        SwiftBookComponent(takeSnapshot: $takeSnapshot, frame: CGSize(width: 2000, height: 600)) {
+            RectangleView(color: color, large: large)
+        }
     }
 }
 
@@ -51,22 +43,17 @@ struct RectangleRed: View {
     @Binding var large: Bool
     @Binding var takeSnapshot: Bool
     
-    var component: SwiftBookComponent<RectangleView> {
-        SwiftBookComponent(takeSnapshot: $takeSnapshot, frame: CGSize(width: 2000, height: 600)) {
-            RectangleView(color: color, large: large)
-        }
-    }
-    
     var body: some View {
         H3("This is a red rectangle")
         P("It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.")
         P("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.")
-        component
+        SwiftBookComponent(takeSnapshot: $takeSnapshot, frame: CGSize(width: 2000, height: 600)) {
+            RectangleView(color: color, large: large)
+        }
     }
 }
 
 struct RectangleDoc: View {
-    
     @Binding var takeSnapshot: Bool
     
     @State var rectangleBasicColor: Color = .orange
@@ -102,7 +89,7 @@ struct RectangleDoc: View {
                 HStack {
                     SwiftBookControlColor(color: $rectangleBasicColor, title: "color")
                     SwiftBookControlToggle(active: $rectangleBasicLarge, title: "large")
-                }
+                }.fixedSize()
                 argsTableView()
             }
             Spacer(minLength: 100)
@@ -111,7 +98,7 @@ struct RectangleDoc: View {
                 HStack {
                     SwiftBookControlColor(color: $rectangleLargeColor, title: "color")
                     SwiftBookControlToggle(active: $rectangleLargeLarge, title: "large")
-                }
+                }.fixedSize()
                 argsTableView()
             }
             Spacer(minLength: 100)
@@ -120,7 +107,7 @@ struct RectangleDoc: View {
                 HStack {
                     SwiftBookControlColor(color: $rectangleRedColor, title: "color")
                     SwiftBookControlToggle(active: $rectangleRedLarge, title: "large")
-                }
+                }.fixedSize()
                 argsTableView()
             }
         }
