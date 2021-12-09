@@ -10,7 +10,7 @@ import SwiftBook
 
 struct ContentView: View {
     @State private var document: DocumentType = .circleView
-    @StateObject var appModel = SwiftBookModel()
+    @ObservedObject var appModel = SwiftBookModel()
     
     // Called when a navigation cell is clicked.
     func onNavChange(document: String) {
