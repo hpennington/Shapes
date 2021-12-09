@@ -7,6 +7,7 @@
 
 import UIKit
 import SwiftUI
+import SwiftBook
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 

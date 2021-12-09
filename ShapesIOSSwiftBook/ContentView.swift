@@ -10,7 +10,7 @@ import SwiftBook
 
 struct ContentView: View {
     @State private var document: DocumentType = .circleView
-    @State private var takeSnapshot: Bool = false
+    @ObservedObject var appModel = SwiftBookModel()
     
     // Called when a navigation cell is clicked.
     func onNavChange(document: String) {
@@ -26,13 +26,13 @@ struct ContentView: View {
     }
     
     var body: some View {
-        SwiftBook(takeSnapshot: $takeSnapshot, titles: DocumentType.allCases.map { $0.rawValue }, onNavChange: self.onNavChange) {
+        SwiftBook(titles: DocumentType.allCases.map { $0.rawValue }, onNavChange: self.onNavChange) {
             switch(document) {
             case .circleView:
-                CircleDoc(takeSnapshot: $takeSnapshot)
+                CircleDoc()
             case .rectangleView:
-                RectangleDoc(takeSnapshot: $takeSnapshot)
+                RectangleDoc()
             }
-        }
+        }.environmentObject(appModel)
     }
 }
