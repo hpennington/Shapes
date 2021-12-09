@@ -9,8 +9,8 @@ import SwiftUI
 import SwiftBook
 
 struct RectangleBasic: View {
-    @Binding var color: Color
-    @Binding var large: Bool
+    @State private var color: Color = .orange
+    @State private var large: Bool = false
     
     var body: some View {
         H3("This is a basic rectangle")
@@ -19,12 +19,16 @@ struct RectangleBasic: View {
         SwiftBookComponent() {
             RectangleView(color: color, large: large)
         }
+        HStack {
+            SwiftBookControlColor(color: $color, title: "color")
+            SwiftBookControlToggle(active: $large, title: "large")
+        }.fixedSize()
     }
 }
 
 struct RectangleLarge: View {
-    @Binding var color: Color
-    @Binding var large: Bool
+    @State private var color: Color = .white
+    @State private var large: Bool = true
     
     var body: some View {
         H3("This is a large rectangle")
@@ -33,12 +37,16 @@ struct RectangleLarge: View {
         SwiftBookComponent() {
             RectangleView(color: color, large: large)
         }
+        HStack {
+            SwiftBookControlColor(color: $color, title: "color")
+            SwiftBookControlToggle(active: $large, title: "large")
+        }.fixedSize()
     }
 }
 
 struct RectangleRed: View {
-    @Binding var color: Color
-    @Binding var large: Bool
+    @State private var color: Color = .red
+    @State private var large: Bool = false
     
     var body: some View {
         H3("This is a red rectangle")
@@ -47,19 +55,14 @@ struct RectangleRed: View {
         SwiftBookComponent() {
             RectangleView(color: color, large: large)
         }
+        HStack {
+            SwiftBookControlColor(color: $color, title: "color")
+            SwiftBookControlToggle(active: $large, title: "large")
+        }.fixedSize()
     }
 }
 
 struct RectangleDoc: View {
-    @State var rectangleBasicColor: Color = .orange
-    @State var rectangleBasicLarge: Bool = false
-    
-    @State var rectangleLargeColor: Color = .white
-    @State var rectangleLargeLarge: Bool = true
-    
-    @State var rectangleRedColor: Color = .red
-    @State var rectangleRedLarge: Bool = false
-    
     func argsTableView() -> some View {
         SwiftBookArgsTable {
             VStack {
@@ -71,34 +74,20 @@ struct RectangleDoc: View {
     
     var body: some View {
         VStack {
+            H1("RectangleView")
+            P("A rectangular View")
             VStack {
-                H1("RectangleView")
-                P("A rectangular View")
-            }
-            VStack {
-                RectangleBasic(color: $rectangleBasicColor, large: $rectangleBasicLarge)
-                HStack {
-                    SwiftBookControlColor(color: $rectangleBasicColor, title: "color")
-                    SwiftBookControlToggle(active: $rectangleBasicLarge, title: "large")
-                }.fixedSize()
+                RectangleBasic()
                 argsTableView()
             }
             Spacer(minLength: 100)
             VStack {
-                RectangleLarge(color: $rectangleLargeColor, large: $rectangleLargeLarge)
-                HStack {
-                    SwiftBookControlColor(color: $rectangleLargeColor, title: "color")
-                    SwiftBookControlToggle(active: $rectangleLargeLarge, title: "large")
-                }.fixedSize()
+                RectangleLarge()
                 argsTableView()
             }
             Spacer(minLength: 100)
             VStack {
-                RectangleRed(color: $rectangleRedColor, large: $rectangleRedLarge)
-                HStack {
-                    SwiftBookControlColor(color: $rectangleRedColor, title: "color")
-                    SwiftBookControlToggle(active: $rectangleRedLarge, title: "large")
-                }.fixedSize()
+                RectangleRed()
                 argsTableView()
             }
         }
