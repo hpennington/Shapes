@@ -19,10 +19,10 @@ struct RectangleBasic: View {
         SwiftBookComponent() {
             RectangleView(color: color, large: large)
         }
-        HStack {
+        SwiftBookControlTable {
             SwiftBookControlColor(color: $color, title: "color")
             SwiftBookControlToggle(active: $large, title: "large")
-        }.fixedSize()
+        }
     }
 }
 
@@ -37,10 +37,10 @@ struct RectangleLarge: View {
         SwiftBookComponent() {
             RectangleView(color: color, large: large)
         }
-        HStack {
+        SwiftBookControlTable {
             SwiftBookControlColor(color: $color, title: "color")
             SwiftBookControlToggle(active: $large, title: "large")
-        }.fixedSize()
+        }
     }
 }
 
@@ -55,20 +55,18 @@ struct RectangleRed: View {
         SwiftBookComponent() {
             RectangleView(color: color, large: large)
         }
-        HStack {
+        SwiftBookControlTable {
             SwiftBookControlColor(color: $color, title: "color")
             SwiftBookControlToggle(active: $large, title: "large")
-        }.fixedSize()
+        }
     }
 }
 
 struct RectangleDoc: View {
-    func argsTableView() -> some View {
+    func ArgsTable() -> some View {
         SwiftBookArgsTable {
-            VStack {
-                SwiftBookArgRow(title: "color", description: "The color of the rectangle", type: .color)
-                SwiftBookArgRow(title: "large", description: "Determines the size of the rectangle", type: .bool)
-            }
+            SwiftBookArgRow(title: "color", description: "The color of the rectangle", type: .color)
+            SwiftBookArgRow(title: "large", description: "Determines the size of the rectangle", type: .bool)
         }
     }
     
@@ -78,17 +76,17 @@ struct RectangleDoc: View {
             P("A rectangular View")
             VStack {
                 RectangleBasic()
-                argsTableView()
+                ArgsTable()
             }
             Spacer(minLength: 100)
             VStack {
                 RectangleLarge()
-                argsTableView()
+                ArgsTable()
             }
             Spacer(minLength: 100)
             VStack {
                 RectangleRed()
-                argsTableView()
+                ArgsTable()
             }
         }
     }

@@ -28,7 +28,7 @@ struct CircleBlue: View {
                 SwiftBookComponent() {
                     CircleView(color: color, label: label, labelColor: labelColor)
                 }
-                HStack {
+                SwiftBookControlTable {
                     SwiftBookControlColor(color: $color, title: "color")
                     SwiftBookControlColor(color: $labelColor, title: "labelColor")
                     SwiftBookControlText(text: $label, label: "label")
@@ -50,7 +50,7 @@ struct CircleRed: View {
             SwiftBookComponent() {
                 CircleView(color: color, label: label, labelColor: labelColor)
             }
-            HStack {
+            SwiftBookControlTable {
                 SwiftBookControlColor(color: $color, title: "color")
                 SwiftBookControlColor(color: $labelColor, title: "labelColor")
                 SwiftBookControlText(text: $label, label: "label")
@@ -61,13 +61,11 @@ struct CircleRed: View {
 }
 
 struct CircleDoc: View {
-    func argsTableView() -> some View {
+    func ArgsTable() -> some View {
         SwiftBookArgsTable {
-            VStack {
-                SwiftBookArgRow(title: "color", description: "The color of the circle", type: .color)
-                SwiftBookArgRow(title: "label", description: "The label to display on the circle", type: .string)
-                SwiftBookArgRow(title: "labelColor", description: "The color of the label", type: .color)
-            }
+            SwiftBookArgRow(title: "color", description: "The color of the circle", type: .color)
+            SwiftBookArgRow(title: "label", description: "The label to display on the circle", type: .string)
+            SwiftBookArgRow(title: "labelColor", description: "The color of the label", type: .color)
         }
     }
     
@@ -77,12 +75,12 @@ struct CircleDoc: View {
             P("A View which is a circle.")
             VStack {
                 CircleBlue()
-                argsTableView()
+                ArgsTable()
             }
             Spacer(minLength: 100)
             VStack {
                 CircleRed()
-                argsTableView()
+                ArgsTable()
             }
         }
     }
