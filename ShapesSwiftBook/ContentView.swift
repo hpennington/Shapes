@@ -12,7 +12,7 @@ struct ContentView: View {
     @State private var document: String = DocumentType.circleView.rawValue
 
     enum DocumentType: String, CaseIterable {
-        case circleView = "CirclView"
+        case circleView = "CircleView"
         case rectangleView = "RectangleView"
     }
     
