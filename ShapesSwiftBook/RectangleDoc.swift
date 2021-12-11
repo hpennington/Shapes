@@ -71,23 +71,21 @@ struct RectangleDoc: View {
     }
     
     var body: some View {
+        H1("RectangleView")
+        P("A rectangular View")
         VStack {
-            H1("RectangleView")
-            P("A rectangular View")
-            VStack {
-                RectangleBasic()
-                ArgsTable()
-            }
-            Spacer(minLength: 100)
-            VStack {
-                RectangleLarge()
-                ArgsTable()
-            }
-            Spacer(minLength: 100)
-            VStack {
-                RectangleRed()
-                ArgsTable()
-            }
+            RectangleBasic()
+            ArgsTable()
+        }
+        Spacer(minLength: 100)
+        VStack {
+            RectangleLarge()
+            ArgsTable()
+        }
+        Spacer(minLength: 100)
+        VStack {
+            RectangleRed()
+            ArgsTable()
         }
     }
 }

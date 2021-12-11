@@ -70,18 +70,16 @@ struct CircleDoc: View {
     }
     
     var body: some View {
+        H1("CircleView")
+        P("A View which is a circle.")
         VStack {
-            H1("CircleView")
-            P("A View which is a circle.")
-            VStack {
-                CircleBlue()
-                ArgsTable()
-            }
-            Spacer(minLength: 100)
-            VStack {
-                CircleRed()
-                ArgsTable()
-            }
+            CircleBlue()
+            ArgsTable()
+        }
+        Spacer(minLength: 100)
+        VStack {
+            CircleRed()
+            ArgsTable()
         }
     }
 }
