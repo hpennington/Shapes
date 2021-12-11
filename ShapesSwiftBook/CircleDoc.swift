@@ -44,19 +44,16 @@ struct CircleRed: View {
     @State private var labelColor: Color = .primary
     
     var body: some View {
-        VStack {
-            H2("A red circle")
-            H3("This is a description of a red circle.")
-            SwiftBookComponent {
-                CircleView(color: color, label: label, labelColor: labelColor)
-            }
-            SwiftBookControlTable {
-                SwiftBookControlColor(color: $color, title: "color")
-                SwiftBookControlColor(color: $labelColor, title: "labelColor")
-                SwiftBookControlText(text: $label, label: "label")
-            }
+        H2("A red circle")
+        H3("This is a description of a red circle.")
+        SwiftBookComponent {
+            CircleView(color: color, label: label, labelColor: labelColor)
         }
-        
+        SwiftBookControlTable {
+            SwiftBookControlColor(color: $color, title: "color")
+            SwiftBookControlColor(color: $labelColor, title: "labelColor")
+            SwiftBookControlText(text: $label, label: "label")
+        }
     }
 }
 
