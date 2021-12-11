@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        Text("Please run the target ShapesSwiftBook or ShapesIOSSwiftBook!")
             .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
