@@ -7,7 +7,7 @@
 
 import SwiftUI
 import SwiftBook
-import SwiftBookDocsMacOS
+import SwiftBookDocsIOS
 
 struct ContentView: View {
     var body: some View {

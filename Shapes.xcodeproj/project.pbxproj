@@ -7,45 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F87159DA275835D600FFFA16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87159D9275835D600FFFA16 /* AppDelegate.swift */; };
-		F87159DC275835D600FFFA16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87159DB275835D600FFFA16 /* ContentView.swift */; };
-		F87159DE275835D700FFFA16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87159DD275835D700FFFA16 /* Assets.xcassets */; };
-		F87159E1275835D700FFFA16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87159E0275835D700FFFA16 /* Preview Assets.xcassets */; };
-		F87159E4275835D700FFFA16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87159E2275835D700FFFA16 /* Main.storyboard */; };
 		F87159F32758365800FFFA16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87159F22758365800FFFA16 /* AppDelegate.swift */; };
 		F87159F52758365800FFFA16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87159F42758365800FFFA16 /* ContentView.swift */; };
 		F87159F72758365900FFFA16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87159F62758365900FFFA16 /* Assets.xcassets */; };
 		F87159FA2758365900FFFA16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87159F92758365900FFFA16 /* Preview Assets.xcassets */; };
 		F87159FD2758365900FFFA16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87159FB2758365900FFFA16 /* Main.storyboard */; };
-		F8715A052758368000FFFA16 /* SwiftBook in Frameworks */ = {isa = PBXBuildFile; productRef = F8715A042758368000FFFA16 /* SwiftBook */; };
-		F8715A08275836B500FFFA16 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A06275836B500FFFA16 /* RectangleView.swift */; };
-		F8715A09275836B500FFFA16 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A06275836B500FFFA16 /* RectangleView.swift */; };
-		F8715A0A275836B500FFFA16 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A07275836B500FFFA16 /* CircleView.swift */; };
-		F8715A0B275836B500FFFA16 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A07275836B500FFFA16 /* CircleView.swift */; };
-		F8715A0E275836FF00FFFA16 /* CircleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0C275836FF00FFFA16 /* CircleDoc.swift */; };
-		F8715A0F275836FF00FFFA16 /* RectangleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */; };
+		F895A26B276FAA4500C3939E /* SwiftBookDocsIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F895A269276FAA4500C3939E /* SwiftBookDocsIOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F895A26E276FAA4500C3939E /* SwiftBookDocsIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F895A267276FAA4500C3939E /* SwiftBookDocsIOS.framework */; };
+		F895A270276FAA4500C3939E /* SwiftBookDocsIOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F895A267276FAA4500C3939E /* SwiftBookDocsIOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F895A274276FAA4D00C3939E /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A07275836B500FFFA16 /* CircleView.swift */; };
+		F895A275276FAA4D00C3939E /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A06275836B500FFFA16 /* RectangleView.swift */; };
+		F895A276276FAA4D00C3939E /* CircleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0C275836FF00FFFA16 /* CircleDoc.swift */; };
+		F895A277276FAA4D00C3939E /* RectangleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */; };
+		F895A278276FAA4D00C3939E /* DocumentsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F895A25F276FA94700C3939E /* DocumentsTable.swift */; };
+		F895A27A276FAA5700C3939E /* SwiftBook in Frameworks */ = {isa = PBXBuildFile; productRef = F895A279276FAA5700C3939E /* SwiftBook */; };
+		F895A27D276FAB6600C3939E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F895A27B276FAB3F00C3939E /* ContentView.swift */; };
+		F895A287276FAB8D00C3939E /* SwiftBookDocsMacOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F895A285276FAB8D00C3939E /* SwiftBookDocsMacOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F895A28A276FAB8D00C3939E /* SwiftBookDocsMacOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F895A283276FAB8D00C3939E /* SwiftBookDocsMacOS.framework */; };
+		F895A28B276FAB8D00C3939E /* SwiftBookDocsMacOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F895A283276FAB8D00C3939E /* SwiftBookDocsMacOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F895A292276FABBA00C3939E /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A07275836B500FFFA16 /* CircleView.swift */; };
+		F895A293276FABBA00C3939E /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A06275836B500FFFA16 /* RectangleView.swift */; };
+		F895A294276FABBA00C3939E /* CircleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0C275836FF00FFFA16 /* CircleDoc.swift */; };
+		F895A295276FABBA00C3939E /* RectangleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */; };
+		F895A296276FABBA00C3939E /* DocumentsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F895A25F276FA94700C3939E /* DocumentsTable.swift */; };
+		F895A298276FABBE00C3939E /* SwiftBook in Frameworks */ = {isa = PBXBuildFile; productRef = F895A297276FABBE00C3939E /* SwiftBook */; };
 		F8B360C427602A89005F8AB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B360C327602A89005F8AB6 /* AppDelegate.swift */; };
 		F8B360C627602A89005F8AB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B360C527602A89005F8AB6 /* SceneDelegate.swift */; };
 		F8B360CA27602A8A005F8AB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B360C927602A8A005F8AB6 /* Assets.xcassets */; };
 		F8B360CD27602A8A005F8AB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B360CC27602A8A005F8AB6 /* Preview Assets.xcassets */; };
 		F8B360D027602A8A005F8AB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B360CE27602A8A005F8AB6 /* LaunchScreen.storyboard */; };
-		F8B360D627602BAC005F8AB6 /* CircleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0C275836FF00FFFA16 /* CircleDoc.swift */; };
-		F8B360D727602BAC005F8AB6 /* RectangleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */; };
-		F8B360DA27602BDA005F8AB6 /* SwiftBook in Frameworks */ = {isa = PBXBuildFile; productRef = F8B360D927602BDA005F8AB6 /* SwiftBook */; };
-		F8B360DC27602FC4005F8AB6 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A07275836B500FFFA16 /* CircleView.swift */; };
-		F8B360DD27602FC4005F8AB6 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A06275836B500FFFA16 /* RectangleView.swift */; };
-		F8D6BCB5276EBEAA006355C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87159F42758365800FFFA16 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F895A26C276FAA4500C3939E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F87159CE275835D600FFFA16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F895A266276FAA4500C3939E;
+			remoteInfo = SwiftBookDocsIOS;
+		};
+		F895A288276FAB8D00C3939E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F87159CE275835D600FFFA16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F895A282276FAB8D00C3939E;
+			remoteInfo = SwiftBookDocsMacOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F895A26F276FAA4500C3939E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F895A270276FAA4500C3939E /* SwiftBookDocsIOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F895A28F276FAB8D00C3939E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F895A28B276FAB8D00C3939E /* SwiftBookDocsMacOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		F87159D6275835D600FFFA16 /* Shapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F87159D9275835D600FFFA16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F87159DB275835D600FFFA16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F87159DD275835D700FFFA16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F87159E0275835D700FFFA16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F87159E3275835D700FFFA16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F87159E5275835D700FFFA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F87159E6275835D700FFFA16 /* Shapes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Shapes.entitlements; sourceTree = "<group>"; };
 		F87159F02758365800FFFA16 /* ShapesSwiftBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapesSwiftBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F87159F22758365800FFFA16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F87159F42758365800FFFA16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +93,14 @@
 		F8715A07275836B500FFFA16 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		F8715A0C275836FF00FFFA16 /* CircleDoc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleDoc.swift; sourceTree = "<group>"; };
 		F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleDoc.swift; sourceTree = "<group>"; };
+		F895A25F276FA94700C3939E /* DocumentsTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsTable.swift; sourceTree = "<group>"; };
+		F895A267276FAA4500C3939E /* SwiftBookDocsIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftBookDocsIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F895A269276FAA4500C3939E /* SwiftBookDocsIOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftBookDocsIOS.h; sourceTree = "<group>"; };
+		F895A26A276FAA4500C3939E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F895A27B276FAB3F00C3939E /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F895A283276FAB8D00C3939E /* SwiftBookDocsMacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftBookDocsMacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F895A285276FAB8D00C3939E /* SwiftBookDocsMacOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftBookDocsMacOS.h; sourceTree = "<group>"; };
+		F895A286276FAB8D00C3939E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8B360C127602A89005F8AB6 /* ShapesIOSSwiftBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapesIOSSwiftBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B360C327602A89005F8AB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8B360C527602A89005F8AB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,18 +112,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F87159D3275835D600FFFA16 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F87159ED2758365800FFFA16 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8715A052758368000FFFA16 /* SwiftBook in Frameworks */,
+				F895A28A276FAB8D00C3939E /* SwiftBookDocsMacOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F895A264276FAA4500C3939E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F895A27A276FAA5700C3939E /* SwiftBook in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F895A280276FAB8D00C3939E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F895A298276FABBE00C3939E /* SwiftBook in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8B360DA27602BDA005F8AB6 /* SwiftBook in Frameworks */,
+				F895A26E276FAA4500C3939E /* SwiftBookDocsIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,8 +151,11 @@
 			isa = PBXGroup;
 			children = (
 				F87159D8275835D600FFFA16 /* Shapes */,
+				F895A25E276FA92B00C3939E /* SwiftBook */,
 				F87159F12758365800FFFA16 /* ShapesSwiftBook */,
 				F8B360C227602A89005F8AB6 /* ShapesIOSSwiftBook */,
+				F895A268276FAA4500C3939E /* SwiftBookDocsIOS */,
+				F895A284276FAB8D00C3939E /* SwiftBookDocsMacOS */,
 				F87159D7275835D600FFFA16 /* Products */,
 				F8B360D827602BDA005F8AB6 /* Frameworks */,
 			);
@@ -109,9 +164,10 @@
 		F87159D7275835D600FFFA16 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F87159D6275835D600FFFA16 /* Shapes.app */,
 				F87159F02758365800FFFA16 /* ShapesSwiftBook.app */,
 				F8B360C127602A89005F8AB6 /* ShapesIOSSwiftBook.app */,
+				F895A267276FAA4500C3939E /* SwiftBookDocsIOS.framework */,
+				F895A283276FAB8D00C3939E /* SwiftBookDocsMacOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,23 +177,8 @@
 			children = (
 				F8715A07275836B500FFFA16 /* CircleView.swift */,
 				F8715A06275836B500FFFA16 /* RectangleView.swift */,
-				F87159D9275835D600FFFA16 /* AppDelegate.swift */,
-				F87159DB275835D600FFFA16 /* ContentView.swift */,
-				F87159DD275835D700FFFA16 /* Assets.xcassets */,
-				F87159E2275835D700FFFA16 /* Main.storyboard */,
-				F87159E5275835D700FFFA16 /* Info.plist */,
-				F87159E6275835D700FFFA16 /* Shapes.entitlements */,
-				F87159DF275835D700FFFA16 /* Preview Content */,
 			);
 			path = Shapes;
-			sourceTree = "<group>";
-		};
-		F87159DF275835D700FFFA16 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				F87159E0275835D700FFFA16 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		F87159F12758365800FFFA16 /* ShapesSwiftBook */ = {
@@ -145,8 +186,6 @@
 			children = (
 				F87159F22758365800FFFA16 /* AppDelegate.swift */,
 				F87159F42758365800FFFA16 /* ContentView.swift */,
-				F8715A0C275836FF00FFFA16 /* CircleDoc.swift */,
-				F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */,
 				F8B360C927602A8A005F8AB6 /* Assets.xcassets */,
 				F87159FB2758365900FFFA16 /* Main.storyboard */,
 				F87159FE2758365900FFFA16 /* Info.plist */,
@@ -164,9 +203,38 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F895A25E276FA92B00C3939E /* SwiftBook */ = {
+			isa = PBXGroup;
+			children = (
+				F8715A0C275836FF00FFFA16 /* CircleDoc.swift */,
+				F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */,
+				F895A25F276FA94700C3939E /* DocumentsTable.swift */,
+			);
+			path = SwiftBook;
+			sourceTree = "<group>";
+		};
+		F895A268276FAA4500C3939E /* SwiftBookDocsIOS */ = {
+			isa = PBXGroup;
+			children = (
+				F895A269276FAA4500C3939E /* SwiftBookDocsIOS.h */,
+				F895A26A276FAA4500C3939E /* Info.plist */,
+			);
+			path = SwiftBookDocsIOS;
+			sourceTree = "<group>";
+		};
+		F895A284276FAB8D00C3939E /* SwiftBookDocsMacOS */ = {
+			isa = PBXGroup;
+			children = (
+				F895A285276FAB8D00C3939E /* SwiftBookDocsMacOS.h */,
+				F895A286276FAB8D00C3939E /* Info.plist */,
+			);
+			path = SwiftBookDocsMacOS;
+			sourceTree = "<group>";
+		};
 		F8B360C227602A89005F8AB6 /* ShapesIOSSwiftBook */ = {
 			isa = PBXGroup;
 			children = (
+				F895A27B276FAB3F00C3939E /* ContentView.swift */,
 				F8B360D527602AC7005F8AB6 /* ShapesIOSSwiftBook.entitlements */,
 				F8B360C327602A89005F8AB6 /* AppDelegate.swift */,
 				F8B360C527602A89005F8AB6 /* SceneDelegate.swift */,
@@ -195,24 +263,26 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXNativeTarget section */
-		F87159D5275835D600FFFA16 /* Shapes */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F87159E9275835D700FFFA16 /* Build configuration list for PBXNativeTarget "Shapes" */;
-			buildPhases = (
-				F87159D2275835D600FFFA16 /* Sources */,
-				F87159D3275835D600FFFA16 /* Frameworks */,
-				F87159D4275835D600FFFA16 /* Resources */,
+/* Begin PBXHeadersBuildPhase section */
+		F895A262276FAA4500C3939E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F895A26B276FAA4500C3939E /* SwiftBookDocsIOS.h in Headers */,
 			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Shapes;
-			productName = Shapes;
-			productReference = F87159D6275835D600FFFA16 /* Shapes.app */;
-			productType = "com.apple.product-type.application";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F895A27E276FAB8D00C3939E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F895A287276FAB8D00C3939E /* SwiftBookDocsMacOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
 		F87159EF2758365800FFFA16 /* ShapesSwiftBook */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8715A002758365900FFFA16 /* Build configuration list for PBXNativeTarget "ShapesSwiftBook" */;
@@ -220,18 +290,61 @@
 				F87159EC2758365800FFFA16 /* Sources */,
 				F87159ED2758365800FFFA16 /* Frameworks */,
 				F87159EE2758365800FFFA16 /* Resources */,
+				F895A28F276FAB8D00C3939E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F895A289276FAB8D00C3939E /* PBXTargetDependency */,
+			);
+			name = ShapesSwiftBook;
+			packageProductDependencies = (
+			);
+			productName = ShapesSwiftBook;
+			productReference = F87159F02758365800FFFA16 /* ShapesSwiftBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F895A266276FAA4500C3939E /* SwiftBookDocsIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F895A271276FAA4500C3939E /* Build configuration list for PBXNativeTarget "SwiftBookDocsIOS" */;
+			buildPhases = (
+				F895A262276FAA4500C3939E /* Headers */,
+				F895A263276FAA4500C3939E /* Sources */,
+				F895A264276FAA4500C3939E /* Frameworks */,
+				F895A265276FAA4500C3939E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ShapesSwiftBook;
+			name = SwiftBookDocsIOS;
 			packageProductDependencies = (
-				F8715A042758368000FFFA16 /* SwiftBook */,
+				F895A279276FAA5700C3939E /* SwiftBook */,
 			);
-			productName = ShapesSwiftBook;
-			productReference = F87159F02758365800FFFA16 /* ShapesSwiftBook.app */;
-			productType = "com.apple.product-type.application";
+			productName = SwiftBookDocsIOS;
+			productReference = F895A267276FAA4500C3939E /* SwiftBookDocsIOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F895A282276FAB8D00C3939E /* SwiftBookDocsMacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F895A28C276FAB8D00C3939E /* Build configuration list for PBXNativeTarget "SwiftBookDocsMacOS" */;
+			buildPhases = (
+				F895A27E276FAB8D00C3939E /* Headers */,
+				F895A27F276FAB8D00C3939E /* Sources */,
+				F895A280276FAB8D00C3939E /* Frameworks */,
+				F895A281276FAB8D00C3939E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftBookDocsMacOS;
+			packageProductDependencies = (
+				F895A297276FABBE00C3939E /* SwiftBook */,
+			);
+			productName = SwiftBookDocsMacOS;
+			productReference = F895A283276FAB8D00C3939E /* SwiftBookDocsMacOS.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		F8B360C027602A89005F8AB6 /* ShapesIOSSwiftBook */ = {
 			isa = PBXNativeTarget;
@@ -240,14 +353,15 @@
 				F8B360BD27602A89005F8AB6 /* Sources */,
 				F8B360BE27602A89005F8AB6 /* Frameworks */,
 				F8B360BF27602A89005F8AB6 /* Resources */,
+				F895A26F276FAA4500C3939E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F895A26D276FAA4500C3939E /* PBXTargetDependency */,
 			);
 			name = ShapesIOSSwiftBook;
 			packageProductDependencies = (
-				F8B360D927602BDA005F8AB6 /* SwiftBook */,
 			);
 			productName = ShapesIOSSwiftBook;
 			productReference = F8B360C127602A89005F8AB6 /* ShapesIOSSwiftBook.app */;
@@ -262,10 +376,13 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					F87159D5275835D600FFFA16 = {
+					F87159EF2758365800FFFA16 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
-					F87159EF2758365800FFFA16 = {
+					F895A266276FAA4500C3939E = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					F895A282276FAB8D00C3939E = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 					F8B360C027602A89005F8AB6 = {
@@ -289,24 +406,15 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F87159D5275835D600FFFA16 /* Shapes */,
 				F87159EF2758365800FFFA16 /* ShapesSwiftBook */,
 				F8B360C027602A89005F8AB6 /* ShapesIOSSwiftBook */,
+				F895A266276FAA4500C3939E /* SwiftBookDocsIOS */,
+				F895A282276FAB8D00C3939E /* SwiftBookDocsMacOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F87159D4275835D600FFFA16 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F87159E4275835D700FFFA16 /* Main.storyboard in Resources */,
-				F87159E1275835D700FFFA16 /* Preview Assets.xcassets in Resources */,
-				F87159DE275835D700FFFA16 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F87159EE2758365800FFFA16 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -314,6 +422,20 @@
 				F87159FD2758365900FFFA16 /* Main.storyboard in Resources */,
 				F87159FA2758365900FFFA16 /* Preview Assets.xcassets in Resources */,
 				F87159F72758365900FFFA16 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F895A265276FAA4500C3939E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F895A281276FAB8D00C3939E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,27 +452,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F87159D2275835D600FFFA16 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8715A0A275836B500FFFA16 /* CircleView.swift in Sources */,
-				F87159DC275835D600FFFA16 /* ContentView.swift in Sources */,
-				F87159DA275835D600FFFA16 /* AppDelegate.swift in Sources */,
-				F8715A08275836B500FFFA16 /* RectangleView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F87159EC2758365800FFFA16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8715A0B275836B500FFFA16 /* CircleView.swift in Sources */,
 				F87159F52758365800FFFA16 /* ContentView.swift in Sources */,
 				F87159F32758365800FFFA16 /* AppDelegate.swift in Sources */,
-				F8715A09275836B500FFFA16 /* RectangleView.swift in Sources */,
-				F8715A0F275836FF00FFFA16 /* RectangleDoc.swift in Sources */,
-				F8715A0E275836FF00FFFA16 /* CircleDoc.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F895A263276FAA4500C3939E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F895A274276FAA4D00C3939E /* CircleView.swift in Sources */,
+				F895A275276FAA4D00C3939E /* RectangleView.swift in Sources */,
+				F895A276276FAA4D00C3939E /* CircleDoc.swift in Sources */,
+				F895A277276FAA4D00C3939E /* RectangleDoc.swift in Sources */,
+				F895A278276FAA4D00C3939E /* DocumentsTable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F895A27F276FAB8D00C3939E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F895A292276FABBA00C3939E /* CircleView.swift in Sources */,
+				F895A293276FABBA00C3939E /* RectangleView.swift in Sources */,
+				F895A294276FABBA00C3939E /* CircleDoc.swift in Sources */,
+				F895A295276FABBA00C3939E /* RectangleDoc.swift in Sources */,
+				F895A296276FABBA00C3939E /* DocumentsTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,11 +489,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8D6BCB5276EBEAA006355C0 /* ContentView.swift in Sources */,
-				F8B360DC27602FC4005F8AB6 /* CircleView.swift in Sources */,
-				F8B360DD27602FC4005F8AB6 /* RectangleView.swift in Sources */,
-				F8B360D627602BAC005F8AB6 /* CircleDoc.swift in Sources */,
-				F8B360D727602BAC005F8AB6 /* RectangleDoc.swift in Sources */,
+				F895A27D276FAB6600C3939E /* ContentView.swift in Sources */,
 				F8B360C427602A89005F8AB6 /* AppDelegate.swift in Sources */,
 				F8B360C627602A89005F8AB6 /* SceneDelegate.swift in Sources */,
 			);
@@ -370,15 +497,20 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		F87159E2275835D700FFFA16 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F87159E3275835D700FFFA16 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		F895A26D276FAA4500C3939E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F895A266276FAA4500C3939E /* SwiftBookDocsIOS */;
+			targetProxy = F895A26C276FAA4500C3939E /* PBXContainerItemProxy */;
 		};
+		F895A289276FAB8D00C3939E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F895A282276FAB8D00C3939E /* SwiftBookDocsMacOS */;
+			targetProxy = F895A288276FAB8D00C3939E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		F87159FB2758365900FFFA16 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -513,57 +645,10 @@
 			};
 			name = Release;
 		};
-		F87159EA275835D700FFFA16 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Shapes/Shapes.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"Shapes/Preview Content\"";
-				DEVELOPMENT_TEAM = 3EZ5UQTGVP;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Shapes/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralstudio.Shapes;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		F87159EB275835D700FFFA16 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Shapes/Shapes.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"Shapes/Preview Content\"";
-				DEVELOPMENT_TEAM = 3EZ5UQTGVP;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Shapes/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralstudio.Shapes;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 		F8715A012758365900FFFA16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ShapesSwiftBook/ShapesSwiftBook.entitlements;
@@ -588,6 +673,7 @@
 		F8715A022758365900FFFA16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ShapesSwiftBook/ShapesSwiftBook.entitlements;
@@ -609,9 +695,127 @@
 			};
 			name = Release;
 		};
+		F895A272276FAA4500C3939E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3EZ5UQTGVP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SwiftBookDocsIOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralstudio.SwiftBookDocsIOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F895A273276FAA4500C3939E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3EZ5UQTGVP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SwiftBookDocsIOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralstudio.SwiftBookDocsIOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F895A28D276FAB8D00C3939E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3EZ5UQTGVP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SwiftBookDocsMacOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralstudio.SwiftBookDocsMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F895A28E276FAB8D00C3939E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3EZ5UQTGVP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SwiftBookDocsMacOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralstudio.SwiftBookDocsMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		F8B360D327602A8A005F8AB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ShapesIOSSwiftBook/ShapesIOSSwiftBook.entitlements;
@@ -640,6 +844,7 @@
 		F8B360D427602A8A005F8AB6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ShapesIOSSwiftBook/ShapesIOSSwiftBook.entitlements;
@@ -678,20 +883,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F87159E9275835D700FFFA16 /* Build configuration list for PBXNativeTarget "Shapes" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F87159EA275835D700FFFA16 /* Debug */,
-				F87159EB275835D700FFFA16 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		F8715A002758365900FFFA16 /* Build configuration list for PBXNativeTarget "ShapesSwiftBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8715A012758365900FFFA16 /* Debug */,
 				F8715A022758365900FFFA16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F895A271276FAA4500C3939E /* Build configuration list for PBXNativeTarget "SwiftBookDocsIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F895A272276FAA4500C3939E /* Debug */,
+				F895A273276FAA4500C3939E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F895A28C276FAB8D00C3939E /* Build configuration list for PBXNativeTarget "SwiftBookDocsMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F895A28D276FAB8D00C3939E /* Debug */,
+				F895A28E276FAB8D00C3939E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -719,12 +933,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F8715A042758368000FFFA16 /* SwiftBook */ = {
+		F895A279276FAA5700C3939E /* SwiftBook */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F8715A032758368000FFFA16 /* XCRemoteSwiftPackageReference "swiftbook" */;
 			productName = SwiftBook;
 		};
-		F8B360D927602BDA005F8AB6 /* SwiftBook */ = {
+		F895A297276FABBE00C3939E /* SwiftBook */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F8715A032758368000FFFA16 /* XCRemoteSwiftPackageReference "swiftbook" */;
 			productName = SwiftBook;
