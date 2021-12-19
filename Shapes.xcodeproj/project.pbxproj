@@ -26,7 +26,6 @@
 		F8715A0F275836FF00FFFA16 /* RectangleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */; };
 		F8B360C427602A89005F8AB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B360C327602A89005F8AB6 /* AppDelegate.swift */; };
 		F8B360C627602A89005F8AB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B360C527602A89005F8AB6 /* SceneDelegate.swift */; };
-		F8B360C827602A89005F8AB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B360C727602A89005F8AB6 /* ContentView.swift */; };
 		F8B360CA27602A8A005F8AB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B360C927602A8A005F8AB6 /* Assets.xcassets */; };
 		F8B360CD27602A8A005F8AB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B360CC27602A8A005F8AB6 /* Preview Assets.xcassets */; };
 		F8B360D027602A8A005F8AB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B360CE27602A8A005F8AB6 /* LaunchScreen.storyboard */; };
@@ -35,6 +34,7 @@
 		F8B360DA27602BDA005F8AB6 /* SwiftBook in Frameworks */ = {isa = PBXBuildFile; productRef = F8B360D927602BDA005F8AB6 /* SwiftBook */; };
 		F8B360DC27602FC4005F8AB6 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A07275836B500FFFA16 /* CircleView.swift */; };
 		F8B360DD27602FC4005F8AB6 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A06275836B500FFFA16 /* RectangleView.swift */; };
+		F8D6BCB5276EBEAA006355C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87159F42758365800FFFA16 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,7 +61,6 @@
 		F8B360C127602A89005F8AB6 /* ShapesIOSSwiftBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapesIOSSwiftBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B360C327602A89005F8AB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8B360C527602A89005F8AB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F8B360C727602A89005F8AB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8B360C927602A8A005F8AB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../ShapesIOSSwiftBook/Assets.xcassets; sourceTree = "<group>"; };
 		F8B360CC27602A8A005F8AB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F8B360CF27602A8A005F8AB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -171,7 +170,6 @@
 				F8B360D527602AC7005F8AB6 /* ShapesIOSSwiftBook.entitlements */,
 				F8B360C327602A89005F8AB6 /* AppDelegate.swift */,
 				F8B360C527602A89005F8AB6 /* SceneDelegate.swift */,
-				F8B360C727602A89005F8AB6 /* ContentView.swift */,
 				F87159F62758365900FFFA16 /* Assets.xcassets */,
 				F8B360CE27602A8A005F8AB6 /* LaunchScreen.storyboard */,
 				F8B360D127602A8A005F8AB6 /* Info.plist */,
@@ -360,13 +358,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8D6BCB5276EBEAA006355C0 /* ContentView.swift in Sources */,
 				F8B360DC27602FC4005F8AB6 /* CircleView.swift in Sources */,
 				F8B360DD27602FC4005F8AB6 /* RectangleView.swift in Sources */,
 				F8B360D627602BAC005F8AB6 /* CircleDoc.swift in Sources */,
 				F8B360D727602BAC005F8AB6 /* RectangleDoc.swift in Sources */,
 				F8B360C427602A89005F8AB6 /* AppDelegate.swift in Sources */,
 				F8B360C627602A89005F8AB6 /* SceneDelegate.swift in Sources */,
-				F8B360C827602A89005F8AB6 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,6 +618,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ShapesIOSSwiftBook/Preview Content\"";
 				DEVELOPMENT_TEAM = 3EZ5UQTGVP;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ShapesIOSSwiftBook/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
@@ -647,6 +646,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ShapesIOSSwiftBook/Preview Content\"";
 				DEVELOPMENT_TEAM = 3EZ5UQTGVP;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ShapesIOSSwiftBook/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
@@ -713,7 +713,7 @@
 			repositoryURL = "https://gitlab.com/haydenpennington/swiftbook.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 2.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

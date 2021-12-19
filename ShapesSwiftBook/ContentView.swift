@@ -8,22 +8,13 @@
 import SwiftUI
 import SwiftBook
 
-struct ContentView: View {
-    @State private var document: String = DocumentType.circleView.rawValue
+let documentsTable: [(String, AnyView)] = [
+    ("CircleView", AnyView(CircleDoc())),
+    ("RectangleView", AnyView(RectangleDoc())),
+]
 
-    enum DocumentType: String, CaseIterable {
-        case circleView = "CircleView"
-        case rectangleView = "RectangleView"
-    }
-    
+struct ContentView: View {
     var body: some View {
-        SwiftBook(titles: DocumentType.allCases.map { $0.rawValue }, document: $document) {
-            switch(DocumentType.init(rawValue: document)!) {
-            case .circleView:
-                CircleDoc()
-            case .rectangleView:
-                RectangleDoc()
-            }
-        }
+        SwiftBook(documentsTable: documentsTable)
     }
 }
