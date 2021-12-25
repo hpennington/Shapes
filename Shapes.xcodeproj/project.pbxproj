@@ -12,6 +12,7 @@
 		F87159F52758365800FFFA16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87159F42758365800FFFA16 /* ContentView.swift */; };
 		F87159FA2758365900FFFA16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87159F92758365900FFFA16 /* Preview Assets.xcassets */; };
 		F87159FD2758365900FFFA16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87159FB2758365900FFFA16 /* Main.storyboard */; };
+		F87A695F2777ACE4009D0C17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B360C927602A8A005F8AB6 /* Assets.xcassets */; };
 		F895A26B276FAA4500C3939E /* SwiftBookDocsIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F895A269276FAA4500C3939E /* SwiftBookDocsIOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F895A26E276FAA4500C3939E /* SwiftBookDocsIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F895A267276FAA4500C3939E /* SwiftBookDocsIOS.framework */; };
 		F895A270276FAA4500C3939E /* SwiftBookDocsIOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F895A267276FAA4500C3939E /* SwiftBookDocsIOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -419,6 +420,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F87A695F2777ACE4009D0C17 /* Assets.xcassets in Resources */,
 				F87159FD2758365900FFFA16 /* Main.storyboard in Resources */,
 				F87159FA2758365900FFFA16 /* Preview Assets.xcassets in Resources */,
 			);
