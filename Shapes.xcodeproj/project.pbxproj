@@ -81,7 +81,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F8123CD02776CB0F0022F6AD /* SwiftBook */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftBook; path = ../SwiftBook; sourceTree = "<group>"; };
 		F8617383276FAC9D009B4DC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F87159F02758365800FFFA16 /* ShapesMacOSSwiftBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapesMacOSSwiftBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F87159F22758365800FFFA16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -151,7 +150,6 @@
 		F87159CD275835D600FFFA16 = {
 			isa = PBXGroup;
 			children = (
-				F8123CD02776CB0F0022F6AD /* SwiftBook */,
 				F87159D8275835D600FFFA16 /* Shapes */,
 				F895A25E276FA92B00C3939E /* SwiftBook */,
 				F87159F12758365800FFFA16 /* ShapesMacOSSwiftBook */,
