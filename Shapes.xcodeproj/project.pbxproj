@@ -81,6 +81,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F8123CD02776CB0F0022F6AD /* SwiftBook */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftBook; path = ../SwiftBook; sourceTree = "<group>"; };
 		F8617383276FAC9D009B4DC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F87159F02758365800FFFA16 /* ShapesMacOSSwiftBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapesMacOSSwiftBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F87159F22758365800FFFA16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +151,7 @@
 		F87159CD275835D600FFFA16 = {
 			isa = PBXGroup;
 			children = (
+				F8123CD02776CB0F0022F6AD /* SwiftBook */,
 				F87159D8275835D600FFFA16 /* Shapes */,
 				F895A25E276FA92B00C3939E /* SwiftBook */,
 				F87159F12758365800FFFA16 /* ShapesMacOSSwiftBook */,
@@ -237,8 +239,8 @@
 				F895A27B276FAB3F00C3939E /* ContentView.swift */,
 				F8B360D527602AC7005F8AB6 /* ShapesIOSSwiftBook.entitlements */,
 				F8B360C327602A89005F8AB6 /* AppDelegate.swift */,
-				F8B360C527602A89005F8AB6 /* SceneDelegate.swift */,
 				F8617383276FAC9D009B4DC8 /* Assets.xcassets */,
+				F8B360C527602A89005F8AB6 /* SceneDelegate.swift */,
 				F8B360CE27602A8A005F8AB6 /* LaunchScreen.storyboard */,
 				F8B360D127602A8A005F8AB6 /* Info.plist */,
 				F8B360CB27602A8A005F8AB6 /* Preview Content */,

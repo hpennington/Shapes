@@ -11,6 +11,6 @@ import SwiftBookDocsMacOS
 
 struct ContentView: View {
     var body: some View {
-        SwiftBook(documentsTable: DocumentsTable())
+        SwiftBook(documentsTable: documentsTable)
     }
 }

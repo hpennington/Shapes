@@ -8,11 +8,7 @@
 import SwiftUI
 import SwiftBook
 
-public final class DocumentsTable: SwiftBookDocumentsTable {
-    public init() {}
-    
-    public var documentsTable: [(String, AnyView)] = [
-        ("CircleView", AnyView(CircleDoc())),
-        ("RectangleView", AnyView(RectangleDoc())),
-    ]
-}
+public let documentsTable: [(String, AnyView)] = [
+    ("CircleView", AnyView(CircleDoc())),
+    ("RectangleView", AnyView(RectangleDoc())),
+]
