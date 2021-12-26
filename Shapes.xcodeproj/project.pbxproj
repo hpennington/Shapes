@@ -17,12 +17,10 @@
 		F87A69612777AE17009D0C17 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A06275836B500FFFA16 /* RectangleView.swift */; };
 		F87A69622777AE17009D0C17 /* CircleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0C275836FF00FFFA16 /* CircleDoc.swift */; };
 		F87A69632777AE17009D0C17 /* RectangleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */; };
-		F87A69642777AE17009D0C17 /* DocumentsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F895A25F276FA94700C3939E /* DocumentsTable.swift */; };
 		F87A69652777AE25009D0C17 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A07275836B500FFFA16 /* CircleView.swift */; };
 		F87A69662777AE25009D0C17 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A06275836B500FFFA16 /* RectangleView.swift */; };
 		F87A69672777AE25009D0C17 /* CircleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0C275836FF00FFFA16 /* CircleDoc.swift */; };
 		F87A69682777AE25009D0C17 /* RectangleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */; };
-		F87A69692777AE25009D0C17 /* DocumentsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F895A25F276FA94700C3939E /* DocumentsTable.swift */; };
 		F87A696B2777AE48009D0C17 /* SwiftBook in Frameworks */ = {isa = PBXBuildFile; productRef = F87A696A2777AE48009D0C17 /* SwiftBook */; };
 		F87A696D2777AE52009D0C17 /* SwiftBook in Frameworks */ = {isa = PBXBuildFile; productRef = F87A696C2777AE52009D0C17 /* SwiftBook */; };
 		F895A27D276FAB6600C3939E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F895A27B276FAB3F00C3939E /* ContentView.swift */; };
@@ -68,7 +66,6 @@
 		F8715A07275836B500FFFA16 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		F8715A0C275836FF00FFFA16 /* CircleDoc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleDoc.swift; sourceTree = "<group>"; };
 		F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleDoc.swift; sourceTree = "<group>"; };
-		F895A25F276FA94700C3939E /* DocumentsTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsTable.swift; sourceTree = "<group>"; };
 		F895A27B276FAB3F00C3939E /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8B360C127602A89005F8AB6 /* ShapesIOSSwiftBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapesIOSSwiftBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B360C327602A89005F8AB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -157,7 +154,6 @@
 			children = (
 				F8715A0C275836FF00FFFA16 /* CircleDoc.swift */,
 				F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */,
-				F895A25F276FA94700C3939E /* DocumentsTable.swift */,
 			);
 			path = SwiftBook;
 			sourceTree = "<group>";
@@ -308,7 +304,6 @@
 				F87A69612777AE17009D0C17 /* RectangleView.swift in Sources */,
 				F87A69622777AE17009D0C17 /* CircleDoc.swift in Sources */,
 				F87A69632777AE17009D0C17 /* RectangleDoc.swift in Sources */,
-				F87A69642777AE17009D0C17 /* DocumentsTable.swift in Sources */,
 				F87159F52758365800FFFA16 /* ContentView.swift in Sources */,
 				F87159F32758365800FFFA16 /* AppDelegate.swift in Sources */,
 			);
@@ -322,7 +317,6 @@
 				F87A69662777AE25009D0C17 /* RectangleView.swift in Sources */,
 				F87A69672777AE25009D0C17 /* CircleDoc.swift in Sources */,
 				F87A69682777AE25009D0C17 /* RectangleDoc.swift in Sources */,
-				F87A69692777AE25009D0C17 /* DocumentsTable.swift in Sources */,
 				F895A27D276FAB6600C3939E /* ContentView.swift in Sources */,
 				F8B360C427602A89005F8AB6 /* AppDelegate.swift in Sources */,
 				F8B360C627602A89005F8AB6 /* SceneDelegate.swift in Sources */,

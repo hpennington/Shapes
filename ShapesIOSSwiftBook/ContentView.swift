@@ -10,6 +10,9 @@ import SwiftBook
 
 struct ContentView: View {
     var body: some View {
-        SwiftBook(documentsTable: documentsTable)
+        SwiftBook(documentsTable: [
+            ("CircleView", AnyView(CircleDoc())),
+            ("RectangleView", AnyView(RectangleDoc())),
+        ])
     }
 }
