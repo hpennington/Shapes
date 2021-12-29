@@ -21,8 +21,8 @@
 		F87A69662777AE25009D0C17 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A06275836B500FFFA16 /* RectangleView.swift */; };
 		F87A69672777AE25009D0C17 /* CircleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0C275836FF00FFFA16 /* CircleDoc.swift */; };
 		F87A69682777AE25009D0C17 /* RectangleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */; };
-		F87A696B2777AE48009D0C17 /* SwiftBook in Frameworks */ = {isa = PBXBuildFile; productRef = F87A696A2777AE48009D0C17 /* SwiftBook */; };
-		F87A696D2777AE52009D0C17 /* SwiftBook in Frameworks */ = {isa = PBXBuildFile; productRef = F87A696C2777AE52009D0C17 /* SwiftBook */; };
+		F87A6972277BEF68009D0C17 /* SwiftBook in Frameworks */ = {isa = PBXBuildFile; productRef = F87A6971277BEF68009D0C17 /* SwiftBook */; };
+		F87A6974277BEF73009D0C17 /* SwiftBook in Frameworks */ = {isa = PBXBuildFile; productRef = F87A6973277BEF73009D0C17 /* SwiftBook */; };
 		F895A27D276FAB6600C3939E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F895A27B276FAB3F00C3939E /* ContentView.swift */; };
 		F8B360C427602A89005F8AB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B360C327602A89005F8AB6 /* AppDelegate.swift */; };
 		F8B360C627602A89005F8AB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B360C527602A89005F8AB6 /* SceneDelegate.swift */; };
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F87A696B2777AE48009D0C17 /* SwiftBook in Frameworks */,
+				F87A6972277BEF68009D0C17 /* SwiftBook in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F87A696D2777AE52009D0C17 /* SwiftBook in Frameworks */,
+				F87A6974277BEF73009D0C17 /* SwiftBook in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +206,7 @@
 			);
 			name = ShapesMacOSSwiftBook;
 			packageProductDependencies = (
-				F87A696A2777AE48009D0C17 /* SwiftBook */,
+				F87A6971277BEF68009D0C17 /* SwiftBook */,
 			);
 			productName = ShapesSwiftBook;
 			productReference = F87159F02758365800FFFA16 /* ShapesMacOSSwiftBook.app */;
@@ -227,7 +227,7 @@
 			);
 			name = ShapesIOSSwiftBook;
 			packageProductDependencies = (
-				F87A696C2777AE52009D0C17 /* SwiftBook */,
+				F87A6973277BEF73009D0C17 /* SwiftBook */,
 			);
 			productName = ShapesIOSSwiftBook;
 			productReference = F8B360C127602A89005F8AB6 /* ShapesIOSSwiftBook.app */;
@@ -260,7 +260,7 @@
 			);
 			mainGroup = F87159CD275835D600FFFA16;
 			packageReferences = (
-				F8715A032758368000FFFA16 /* XCRemoteSwiftPackageReference "swiftbook" */,
+				F87A6970277BEF68009D0C17 /* XCRemoteSwiftPackageReference "swiftbook" */,
 			);
 			productRefGroup = F87159D7275835D600FFFA16 /* Products */;
 			projectDirPath = "";
@@ -602,25 +602,25 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F8715A032758368000FFFA16 /* XCRemoteSwiftPackageReference "swiftbook" */ = {
+		F87A6970277BEF68009D0C17 /* XCRemoteSwiftPackageReference "swiftbook" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://gitlab.com/haydenpennington/swiftbook.git";
+			repositoryURL = "https://github.com/hpennington/swiftbook.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.1.0;
+				minimumVersion = 0.1.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F87A696A2777AE48009D0C17 /* SwiftBook */ = {
+		F87A6971277BEF68009D0C17 /* SwiftBook */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F8715A032758368000FFFA16 /* XCRemoteSwiftPackageReference "swiftbook" */;
+			package = F87A6970277BEF68009D0C17 /* XCRemoteSwiftPackageReference "swiftbook" */;
 			productName = SwiftBook;
 		};
-		F87A696C2777AE52009D0C17 /* SwiftBook */ = {
+		F87A6973277BEF73009D0C17 /* SwiftBook */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F8715A032758368000FFFA16 /* XCRemoteSwiftPackageReference "swiftbook" */;
+			package = F87A6970277BEF68009D0C17 /* XCRemoteSwiftPackageReference "swiftbook" */;
 			productName = SwiftBook;
 		};
 /* End XCSwiftPackageProductDependency section */
