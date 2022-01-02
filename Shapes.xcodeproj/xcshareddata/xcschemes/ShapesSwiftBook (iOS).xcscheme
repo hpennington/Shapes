@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F87159EF2758365800FFFA16"
-               BuildableName = "ShapesMacOSSwiftBook.app"
-               BlueprintName = "ShapesMacOSSwiftBook"
+               BlueprintIdentifier = "F8388AC02780139000032790"
+               BuildableName = "ShapesSwiftBook.app"
+               BlueprintName = "ShapesSwiftBook (iOS)"
                ReferencedContainer = "container:Shapes.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,19 +44,12 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F87159EF2758365800FFFA16"
-            BuildableName = "ShapesMacOSSwiftBook.app"
-            BlueprintName = "ShapesMacOSSwiftBook"
+            BlueprintIdentifier = "F8388AC02780139000032790"
+            BuildableName = "ShapesSwiftBook.app"
+            BlueprintName = "ShapesSwiftBook (iOS)"
             ReferencedContainer = "container:Shapes.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "SWIFTBOOK_ENV"
-            value = "global"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -68,9 +61,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F87159EF2758365800FFFA16"
-            BuildableName = "ShapesMacOSSwiftBook.app"
-            BlueprintName = "ShapesMacOSSwiftBook"
+            BlueprintIdentifier = "F8388AC02780139000032790"
+            BuildableName = "ShapesSwiftBook.app"
+            BlueprintName = "ShapesSwiftBook (iOS)"
             ReferencedContainer = "container:Shapes.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

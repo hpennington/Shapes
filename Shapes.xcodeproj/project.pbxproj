@@ -7,103 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F8617384276FAC9D009B4DC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8617383276FAC9D009B4DC8 /* Assets.xcassets */; };
-		F87159F32758365800FFFA16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87159F22758365800FFFA16 /* AppDelegate.swift */; };
-		F87159F52758365800FFFA16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87159F42758365800FFFA16 /* ContentView.swift */; };
-		F87159FA2758365900FFFA16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87159F92758365900FFFA16 /* Preview Assets.xcassets */; };
-		F87159FD2758365900FFFA16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87159FB2758365900FFFA16 /* Main.storyboard */; };
-		F87A695F2777ACE4009D0C17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B360C927602A8A005F8AB6 /* Assets.xcassets */; };
-		F87A69602777AE17009D0C17 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A07275836B500FFFA16 /* CircleView.swift */; };
-		F87A69612777AE17009D0C17 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A06275836B500FFFA16 /* RectangleView.swift */; };
-		F87A69622777AE17009D0C17 /* CircleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0C275836FF00FFFA16 /* CircleDoc.swift */; };
-		F87A69632777AE17009D0C17 /* RectangleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */; };
-		F87A69652777AE25009D0C17 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A07275836B500FFFA16 /* CircleView.swift */; };
-		F87A69662777AE25009D0C17 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A06275836B500FFFA16 /* RectangleView.swift */; };
-		F87A69672777AE25009D0C17 /* CircleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0C275836FF00FFFA16 /* CircleDoc.swift */; };
-		F87A69682777AE25009D0C17 /* RectangleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */; };
-		F87A6972277BEF68009D0C17 /* SwiftBook in Frameworks */ = {isa = PBXBuildFile; productRef = F87A6971277BEF68009D0C17 /* SwiftBook */; };
-		F87A6974277BEF73009D0C17 /* SwiftBook in Frameworks */ = {isa = PBXBuildFile; productRef = F87A6973277BEF73009D0C17 /* SwiftBook */; };
-		F895A27D276FAB6600C3939E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F895A27B276FAB3F00C3939E /* ContentView.swift */; };
-		F8B360C427602A89005F8AB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B360C327602A89005F8AB6 /* AppDelegate.swift */; };
-		F8B360C627602A89005F8AB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B360C527602A89005F8AB6 /* SceneDelegate.swift */; };
-		F8B360CD27602A8A005F8AB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B360CC27602A8A005F8AB6 /* Preview Assets.xcassets */; };
-		F8B360D027602A8A005F8AB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B360CE27602A8A005F8AB6 /* LaunchScreen.storyboard */; };
+		F8388ACC2780139000032790 /* SwiftBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8388ABA2780138F00032790 /* SwiftBookApp.swift */; };
+		F8388ACD2780139000032790 /* SwiftBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8388ABA2780138F00032790 /* SwiftBookApp.swift */; };
+		F8388AD02780139000032790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8388ABC2780139000032790 /* Assets.xcassets */; };
+		F8388AD12780139000032790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8388ABC2780139000032790 /* Assets.xcassets */; };
+		F8388AD9278013D000032790 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A07275836B500FFFA16 /* CircleView.swift */; };
+		F8388ADA278013D000032790 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A06275836B500FFFA16 /* RectangleView.swift */; };
+		F8388ADB278013D000032790 /* CircleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0C275836FF00FFFA16 /* CircleDoc.swift */; };
+		F8388ADC278013D000032790 /* RectangleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */; };
+		F8388ADD278013D500032790 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A07275836B500FFFA16 /* CircleView.swift */; };
+		F8388ADE278013D500032790 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A06275836B500FFFA16 /* RectangleView.swift */; };
+		F8388ADF278013D500032790 /* CircleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0C275836FF00FFFA16 /* CircleDoc.swift */; };
+		F8388AE0278013D500032790 /* RectangleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */; };
+		F8388AE22780142200032790 /* SwiftBook in Frameworks */ = {isa = PBXBuildFile; productRef = F8388AE12780142200032790 /* SwiftBook */; };
+		F8388AE42780142700032790 /* SwiftBook in Frameworks */ = {isa = PBXBuildFile; productRef = F8388AE32780142700032790 /* SwiftBook */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		F895A26F276FAA4500C3939E /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F895A28F276FAB8D00C3939E /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		F8617383276FAC9D009B4DC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F87159F02758365800FFFA16 /* ShapesMacOSSwiftBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapesMacOSSwiftBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F87159F22758365800FFFA16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F87159F42758365800FFFA16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F87159F92758365900FFFA16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F87159FC2758365900FFFA16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F87159FE2758365900FFFA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F87159FF2758365900FFFA16 /* ShapesSwiftBook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShapesSwiftBook.entitlements; sourceTree = "<group>"; };
+		F8388ABA2780138F00032790 /* SwiftBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBookApp.swift; sourceTree = "<group>"; };
+		F8388ABC2780139000032790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8388AC12780139000032790 /* ShapesSwiftBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapesSwiftBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8388AC32780139000032790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8388AC82780139000032790 /* ShapesSwiftBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapesSwiftBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8388ACA2780139000032790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8388ACB2780139000032790 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		F8715A06275836B500FFFA16 /* RectangleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
 		F8715A07275836B500FFFA16 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		F8715A0C275836FF00FFFA16 /* CircleDoc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleDoc.swift; sourceTree = "<group>"; };
 		F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleDoc.swift; sourceTree = "<group>"; };
-		F895A27B276FAB3F00C3939E /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F8B360C127602A89005F8AB6 /* ShapesIOSSwiftBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapesIOSSwiftBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8B360C327602A89005F8AB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F8B360C527602A89005F8AB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F8B360C927602A8A005F8AB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../ShapesIOSSwiftBook/Assets.xcassets; sourceTree = "<group>"; };
-		F8B360CC27602A8A005F8AB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F8B360CF27602A8A005F8AB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F8B360D127602A8A005F8AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8B360D527602AC7005F8AB6 /* ShapesIOSSwiftBook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShapesIOSSwiftBook.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F87159ED2758365800FFFA16 /* Frameworks */ = {
+		F8388ABE2780139000032790 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F87A6972277BEF68009D0C17 /* SwiftBook in Frameworks */,
+				F8388AE42780142700032790 /* SwiftBook in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8B360BE27602A89005F8AB6 /* Frameworks */ = {
+		F8388AC52780139000032790 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F87A6974277BEF73009D0C17 /* SwiftBook in Frameworks */,
+				F8388AE22780142200032790 /* SwiftBook in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F8388AB92780138F00032790 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F8388ABA2780138F00032790 /* SwiftBookApp.swift */,
+				F8388ABC2780139000032790 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F8388AC22780139000032790 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F8388AC32780139000032790 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		F8388AC92780139000032790 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F8388ACA2780139000032790 /* Info.plist */,
+				F8388ACB2780139000032790 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
 		F87159CD275835D600FFFA16 = {
 			isa = PBXGroup;
 			children = (
 				F87159D8275835D600FFFA16 /* Shapes */,
 				F895A25E276FA92B00C3939E /* SwiftBook */,
-				F87159F12758365800FFFA16 /* ShapesMacOSSwiftBook */,
-				F8B360C227602A89005F8AB6 /* ShapesIOSSwiftBook */,
+				F8388AB92780138F00032790 /* Shared */,
+				F8388AC22780139000032790 /* iOS */,
+				F8388AC92780139000032790 /* macOS */,
 				F87159D7275835D600FFFA16 /* Products */,
 				F8B360D827602BDA005F8AB6 /* Frameworks */,
 			);
@@ -112,8 +99,8 @@
 		F87159D7275835D600FFFA16 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F87159F02758365800FFFA16 /* ShapesMacOSSwiftBook.app */,
-				F8B360C127602A89005F8AB6 /* ShapesIOSSwiftBook.app */,
+				F8388AC12780139000032790 /* ShapesSwiftBook.app */,
+				F8388AC82780139000032790 /* ShapesSwiftBook.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,28 +114,6 @@
 			path = Shapes;
 			sourceTree = "<group>";
 		};
-		F87159F12758365800FFFA16 /* ShapesMacOSSwiftBook */ = {
-			isa = PBXGroup;
-			children = (
-				F87159F22758365800FFFA16 /* AppDelegate.swift */,
-				F87159F42758365800FFFA16 /* ContentView.swift */,
-				F8B360C927602A8A005F8AB6 /* Assets.xcassets */,
-				F87159FB2758365900FFFA16 /* Main.storyboard */,
-				F87159FE2758365900FFFA16 /* Info.plist */,
-				F87159FF2758365900FFFA16 /* ShapesSwiftBook.entitlements */,
-				F87159F82758365900FFFA16 /* Preview Content */,
-			);
-			path = ShapesMacOSSwiftBook;
-			sourceTree = "<group>";
-		};
-		F87159F82758365900FFFA16 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				F87159F92758365900FFFA16 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
 		F895A25E276FA92B00C3939E /* SwiftBook */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,29 +121,6 @@
 				F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */,
 			);
 			path = SwiftBook;
-			sourceTree = "<group>";
-		};
-		F8B360C227602A89005F8AB6 /* ShapesIOSSwiftBook */ = {
-			isa = PBXGroup;
-			children = (
-				F895A27B276FAB3F00C3939E /* ContentView.swift */,
-				F8B360D527602AC7005F8AB6 /* ShapesIOSSwiftBook.entitlements */,
-				F8B360C327602A89005F8AB6 /* AppDelegate.swift */,
-				F8617383276FAC9D009B4DC8 /* Assets.xcassets */,
-				F8B360C527602A89005F8AB6 /* SceneDelegate.swift */,
-				F8B360CE27602A8A005F8AB6 /* LaunchScreen.storyboard */,
-				F8B360D127602A8A005F8AB6 /* Info.plist */,
-				F8B360CB27602A8A005F8AB6 /* Preview Content */,
-			);
-			path = ShapesIOSSwiftBook;
-			sourceTree = "<group>";
-		};
-		F8B360CB27602A8A005F8AB6 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				F8B360CC27602A8A005F8AB6 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		F8B360D827602BDA005F8AB6 /* Frameworks */ = {
@@ -191,46 +133,44 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F87159EF2758365800FFFA16 /* ShapesMacOSSwiftBook */ = {
+		F8388AC02780139000032790 /* ShapesSwiftBook (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8715A002758365900FFFA16 /* Build configuration list for PBXNativeTarget "ShapesMacOSSwiftBook" */;
+			buildConfigurationList = F8388AD22780139000032790 /* Build configuration list for PBXNativeTarget "ShapesSwiftBook (iOS)" */;
 			buildPhases = (
-				F87159EC2758365800FFFA16 /* Sources */,
-				F87159ED2758365800FFFA16 /* Frameworks */,
-				F87159EE2758365800FFFA16 /* Resources */,
-				F895A28F276FAB8D00C3939E /* Embed Frameworks */,
+				F8388ABD2780139000032790 /* Sources */,
+				F8388ABE2780139000032790 /* Frameworks */,
+				F8388ABF2780139000032790 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ShapesMacOSSwiftBook;
+			name = "ShapesSwiftBook (iOS)";
 			packageProductDependencies = (
-				F87A6971277BEF68009D0C17 /* SwiftBook */,
+				F8388AE32780142700032790 /* SwiftBook */,
 			);
-			productName = ShapesSwiftBook;
-			productReference = F87159F02758365800FFFA16 /* ShapesMacOSSwiftBook.app */;
+			productName = "SwiftBook (iOS)";
+			productReference = F8388AC12780139000032790 /* ShapesSwiftBook.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F8B360C027602A89005F8AB6 /* ShapesIOSSwiftBook */ = {
+		F8388AC72780139000032790 /* ShapesSwiftBook (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8B360D227602A8A005F8AB6 /* Build configuration list for PBXNativeTarget "ShapesIOSSwiftBook" */;
+			buildConfigurationList = F8388AD52780139000032790 /* Build configuration list for PBXNativeTarget "ShapesSwiftBook (macOS)" */;
 			buildPhases = (
-				F8B360BD27602A89005F8AB6 /* Sources */,
-				F8B360BE27602A89005F8AB6 /* Frameworks */,
-				F8B360BF27602A89005F8AB6 /* Resources */,
-				F895A26F276FAA4500C3939E /* Embed Frameworks */,
+				F8388AC42780139000032790 /* Sources */,
+				F8388AC52780139000032790 /* Frameworks */,
+				F8388AC62780139000032790 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ShapesIOSSwiftBook;
+			name = "ShapesSwiftBook (macOS)";
 			packageProductDependencies = (
-				F87A6973277BEF73009D0C17 /* SwiftBook */,
+				F8388AE12780142200032790 /* SwiftBook */,
 			);
-			productName = ShapesIOSSwiftBook;
-			productReference = F8B360C127602A89005F8AB6 /* ShapesIOSSwiftBook.app */;
+			productName = "SwiftBook (macOS)";
+			productReference = F8388AC82780139000032790 /* ShapesSwiftBook.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -242,10 +182,10 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					F87159EF2758365800FFFA16 = {
+					F8388AC02780139000032790 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
-					F8B360C027602A89005F8AB6 = {
+					F8388AC72780139000032790 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
@@ -266,85 +206,156 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F87159EF2758365800FFFA16 /* ShapesMacOSSwiftBook */,
-				F8B360C027602A89005F8AB6 /* ShapesIOSSwiftBook */,
+				F8388AC02780139000032790 /* ShapesSwiftBook (iOS) */,
+				F8388AC72780139000032790 /* ShapesSwiftBook (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F87159EE2758365800FFFA16 /* Resources */ = {
+		F8388ABF2780139000032790 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F87A695F2777ACE4009D0C17 /* Assets.xcassets in Resources */,
-				F87159FD2758365900FFFA16 /* Main.storyboard in Resources */,
-				F87159FA2758365900FFFA16 /* Preview Assets.xcassets in Resources */,
+				F8388AD02780139000032790 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8B360BF27602A89005F8AB6 /* Resources */ = {
+		F8388AC62780139000032790 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8B360D027602A8A005F8AB6 /* LaunchScreen.storyboard in Resources */,
-				F8B360CD27602A8A005F8AB6 /* Preview Assets.xcassets in Resources */,
-				F8617384276FAC9D009B4DC8 /* Assets.xcassets in Resources */,
+				F8388AD12780139000032790 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F87159EC2758365800FFFA16 /* Sources */ = {
+		F8388ABD2780139000032790 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F87A69602777AE17009D0C17 /* CircleView.swift in Sources */,
-				F87A69612777AE17009D0C17 /* RectangleView.swift in Sources */,
-				F87A69622777AE17009D0C17 /* CircleDoc.swift in Sources */,
-				F87A69632777AE17009D0C17 /* RectangleDoc.swift in Sources */,
-				F87159F52758365800FFFA16 /* ContentView.swift in Sources */,
-				F87159F32758365800FFFA16 /* AppDelegate.swift in Sources */,
+				F8388ADD278013D500032790 /* CircleView.swift in Sources */,
+				F8388ADE278013D500032790 /* RectangleView.swift in Sources */,
+				F8388ADF278013D500032790 /* CircleDoc.swift in Sources */,
+				F8388AE0278013D500032790 /* RectangleDoc.swift in Sources */,
+				F8388ACC2780139000032790 /* SwiftBookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8B360BD27602A89005F8AB6 /* Sources */ = {
+		F8388AC42780139000032790 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F87A69652777AE25009D0C17 /* CircleView.swift in Sources */,
-				F87A69662777AE25009D0C17 /* RectangleView.swift in Sources */,
-				F87A69672777AE25009D0C17 /* CircleDoc.swift in Sources */,
-				F87A69682777AE25009D0C17 /* RectangleDoc.swift in Sources */,
-				F895A27D276FAB6600C3939E /* ContentView.swift in Sources */,
-				F8B360C427602A89005F8AB6 /* AppDelegate.swift in Sources */,
-				F8B360C627602A89005F8AB6 /* SceneDelegate.swift in Sources */,
+				F8388AD9278013D000032790 /* CircleView.swift in Sources */,
+				F8388ADA278013D000032790 /* RectangleView.swift in Sources */,
+				F8388ADB278013D000032790 /* CircleDoc.swift in Sources */,
+				F8388ADC278013D000032790 /* RectangleDoc.swift in Sources */,
+				F8388ACD2780139000032790 /* SwiftBookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		F87159FB2758365900FFFA16 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F87159FC2758365900FFFA16 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F8B360CE27602A8A005F8AB6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F8B360CF27602A8A005F8AB6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
+		F8388AD32780139000032790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShapesSwiftBook.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3EZ5UQTGVP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralstudio.ShapesSwiftBook;
+				PRODUCT_NAME = ShapesSwiftBook;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "2,6";
+			};
+			name = Debug;
+		};
+		F8388AD42780139000032790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShapesSwiftBook.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3EZ5UQTGVP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralstudio.ShapesSwiftBook;
+				PRODUCT_NAME = ShapesSwiftBook;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "2,6";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8388AD62780139000032790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3EZ5UQTGVP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralstudio.ShapesSwiftBook;
+				PRODUCT_NAME = ShapesSwiftBook;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F8388AD72780139000032790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3EZ5UQTGVP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralstudio.ShapesSwiftBook;
+				PRODUCT_NAME = ShapesSwiftBook;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		F87159E7275835D700FFFA16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -396,6 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -451,6 +463,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -460,141 +473,32 @@
 			};
 			name = Release;
 		};
-		F8715A012758365900FFFA16 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ShapesMacOSSwiftBook/ShapesSwiftBook.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"ShapesMacOSSwiftBook/Preview Content\"";
-				DEVELOPMENT_TEAM = 3EZ5UQTGVP;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ShapesMacOSSwiftBook/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralstudio.Shapes;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		F8715A022758365900FFFA16 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ShapesMacOSSwiftBook/ShapesSwiftBook.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"ShapesMacOSSwiftBook/Preview Content\"";
-				DEVELOPMENT_TEAM = 3EZ5UQTGVP;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ShapesMacOSSwiftBook/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralstudio.Shapes;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		F8B360D327602A8A005F8AB6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ShapesIOSSwiftBook/ShapesIOSSwiftBook.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"ShapesIOSSwiftBook/Preview Content\"";
-				DEVELOPMENT_TEAM = 3EZ5UQTGVP;
-				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ShapesIOSSwiftBook/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralstudio.ShapesIOSSwiftBook;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SUPPORTS_MACCATALYST = YES;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F8B360D427602A8A005F8AB6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ShapesIOSSwiftBook/ShapesIOSSwiftBook.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"ShapesIOSSwiftBook/Preview Content\"";
-				DEVELOPMENT_TEAM = 3EZ5UQTGVP;
-				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ShapesIOSSwiftBook/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cerebralstudio.ShapesIOSSwiftBook;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SUPPORTS_MACCATALYST = YES;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F8388AD22780139000032790 /* Build configuration list for PBXNativeTarget "ShapesSwiftBook (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8388AD32780139000032790 /* Debug */,
+				F8388AD42780139000032790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8388AD52780139000032790 /* Build configuration list for PBXNativeTarget "ShapesSwiftBook (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8388AD62780139000032790 /* Debug */,
+				F8388AD72780139000032790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F87159D1275835D600FFFA16 /* Build configuration list for PBXProject "Shapes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F87159E7275835D700FFFA16 /* Debug */,
 				F87159E8275835D700FFFA16 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F8715A002758365900FFFA16 /* Build configuration list for PBXNativeTarget "ShapesMacOSSwiftBook" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F8715A012758365900FFFA16 /* Debug */,
-				F8715A022758365900FFFA16 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F8B360D227602A8A005F8AB6 /* Build configuration list for PBXNativeTarget "ShapesIOSSwiftBook" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F8B360D327602A8A005F8AB6 /* Debug */,
-				F8B360D427602A8A005F8AB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -613,12 +517,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F87A6971277BEF68009D0C17 /* SwiftBook */ = {
+		F8388AE12780142200032790 /* SwiftBook */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F87A6970277BEF68009D0C17 /* XCRemoteSwiftPackageReference "swiftbook" */;
 			productName = SwiftBook;
 		};
-		F87A6973277BEF73009D0C17 /* SwiftBook */ = {
+		F8388AE32780142700032790 /* SwiftBook */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F87A6970277BEF68009D0C17 /* XCRemoteSwiftPackageReference "swiftbook" */;
 			productName = SwiftBook;
