@@ -114,9 +114,9 @@
 		F87159D8275835D600FFFA16 /* Shapes */ = {
 			isa = PBXGroup;
 			children = (
+				F882670227880B2700CCDD9A /* BarChartView.swift */,
 				F8715A07275836B500FFFA16 /* CircleView.swift */,
 				F8715A06275836B500FFFA16 /* RectangleView.swift */,
-				F882670227880B2700CCDD9A /* BarChartView.swift */,
 			);
 			path = Shapes;
 			sourceTree = "<group>";
@@ -124,9 +124,9 @@
 		F895A25E276FA92B00C3939E /* SwiftBook */ = {
 			isa = PBXGroup;
 			children = (
+				F882670527880D7B00CCDD9A /* BarChartDoc.swift */,
 				F8715A0C275836FF00FFFA16 /* CircleDoc.swift */,
 				F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */,
-				F882670527880D7B00CCDD9A /* BarChartDoc.swift */,
 			);
 			path = SwiftBook;
 			sourceTree = "<group>";
