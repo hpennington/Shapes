@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F825C1FA2788B80700CA8484 /* SwiftBook in Frameworks */ = {isa = PBXBuildFile; productRef = F825C1F92788B80700CA8484 /* SwiftBook */; };
+		F825C1FC2788B80F00CA8484 /* SwiftBook in Frameworks */ = {isa = PBXBuildFile; productRef = F825C1FB2788B80F00CA8484 /* SwiftBook */; };
 		F8388ACC2780139000032790 /* SwiftBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8388ABA2780138F00032790 /* SwiftBookApp.swift */; };
 		F8388ACD2780139000032790 /* SwiftBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8388ABA2780138F00032790 /* SwiftBookApp.swift */; };
 		F8388AD02780139000032790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8388ABC2780139000032790 /* Assets.xcassets */; };
@@ -19,8 +21,6 @@
 		F8388ADE278013D500032790 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A06275836B500FFFA16 /* RectangleView.swift */; };
 		F8388ADF278013D500032790 /* CircleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0C275836FF00FFFA16 /* CircleDoc.swift */; };
 		F8388AE0278013D500032790 /* RectangleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */; };
-		F8388AE22780142200032790 /* SwiftBook in Frameworks */ = {isa = PBXBuildFile; productRef = F8388AE12780142200032790 /* SwiftBook */; };
-		F8388AE42780142700032790 /* SwiftBook in Frameworks */ = {isa = PBXBuildFile; productRef = F8388AE32780142700032790 /* SwiftBook */; };
 		F882670327880B2700CCDD9A /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F882670227880B2700CCDD9A /* BarChartView.swift */; };
 		F882670427880B2700CCDD9A /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F882670227880B2700CCDD9A /* BarChartView.swift */; };
 		F882670627880D7B00CCDD9A /* BarChartDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F882670527880D7B00CCDD9A /* BarChartDoc.swift */; };
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8388AE42780142700032790 /* SwiftBook in Frameworks */,
+				F825C1FA2788B80700CA8484 /* SwiftBook in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8388AE22780142200032790 /* SwiftBook in Frameworks */,
+				F825C1FC2788B80F00CA8484 /* SwiftBook in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +155,7 @@
 			);
 			name = "ShapesSwiftBook (iOS)";
 			packageProductDependencies = (
-				F8388AE32780142700032790 /* SwiftBook */,
+				F825C1F92788B80700CA8484 /* SwiftBook */,
 			);
 			productName = "SwiftBook (iOS)";
 			productReference = F8388AC12780139000032790 /* ShapesSwiftBook.app */;
@@ -175,7 +175,7 @@
 			);
 			name = "ShapesSwiftBook (macOS)";
 			packageProductDependencies = (
-				F8388AE12780142200032790 /* SwiftBook */,
+				F825C1FB2788B80F00CA8484 /* SwiftBook */,
 			);
 			productName = "SwiftBook (macOS)";
 			productReference = F8388AC82780139000032790 /* ShapesSwiftBook.app */;
@@ -208,7 +208,7 @@
 			);
 			mainGroup = F87159CD275835D600FFFA16;
 			packageReferences = (
-				F87A6970277BEF68009D0C17 /* XCRemoteSwiftPackageReference "swiftbook" */,
+				F825C1F82788B80700CA8484 /* XCRemoteSwiftPackageReference "swiftbook" */,
 			);
 			productRefGroup = F87159D7275835D600FFFA16 /* Products */;
 			projectDirPath = "";
@@ -518,25 +518,25 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F87A6970277BEF68009D0C17 /* XCRemoteSwiftPackageReference "swiftbook" */ = {
+		F825C1F82788B80700CA8484 /* XCRemoteSwiftPackageReference "swiftbook" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hpennington/swiftbook.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.1.2;
+				minimumVersion = 0.3.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F8388AE12780142200032790 /* SwiftBook */ = {
+		F825C1F92788B80700CA8484 /* SwiftBook */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F87A6970277BEF68009D0C17 /* XCRemoteSwiftPackageReference "swiftbook" */;
+			package = F825C1F82788B80700CA8484 /* XCRemoteSwiftPackageReference "swiftbook" */;
 			productName = SwiftBook;
 		};
-		F8388AE32780142700032790 /* SwiftBook */ = {
+		F825C1FB2788B80F00CA8484 /* SwiftBook */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F87A6970277BEF68009D0C17 /* XCRemoteSwiftPackageReference "swiftbook" */;
+			package = F825C1F82788B80700CA8484 /* XCRemoteSwiftPackageReference "swiftbook" */;
 			productName = SwiftBook;
 		};
 /* End XCSwiftPackageProductDependency section */
