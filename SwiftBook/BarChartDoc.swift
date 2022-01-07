@@ -17,7 +17,6 @@ struct BarChartBasic: View {
     var body: some View {
         SwiftBookComponent {
             BarChartView(title: title, color: color, values: values)
-                .frame(width: 56 * CGFloat(values.count), height: 300)
         }
         SwiftBookControlTable {
             SwiftBookControlText(text: $title, label: "title")
@@ -43,7 +42,6 @@ struct BarChartCustom: View {
         H3("Custom BarChart with knobs to control the parameters.")
         SwiftBookComponent {
             BarChartView(title: title, color: color, values: values, cellWidth: CGFloat(cellWidth), cellSpacing: CGFloat(cellSpacing), maxHeight: CGFloat(maxHeight))
-                .frame(width: CGFloat((cellWidth + cellSpacing)) * CGFloat(values.count), height: CGFloat(maxHeight))
         }
         SwiftBookControlTable {
             SwiftBookControlText(text: $title, label: "title")
