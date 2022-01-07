@@ -26,6 +26,31 @@ struct BarChartView: View {
     let title: String
     let color: Color
     let values: [Double]
+    let cellWidth: CGFloat
+    let cellSpacing: CGFloat
+    let maxHeight: CGFloat
+    
+    let DEFAULT_CELL_WIDTH: CGFloat = 40
+    let DEFAULT_CELL_SPACING: CGFloat = 8
+    let DEFAULT_MAX_HEIGHT: CGFloat = 300
+    
+    init(title: String, color: Color, values: [Double]) {
+        self.title = title
+        self.color = color
+        self.values = values
+        self.cellWidth = DEFAULT_CELL_WIDTH
+        self.cellSpacing = DEFAULT_CELL_SPACING
+        self.maxHeight = DEFAULT_MAX_HEIGHT
+    }
+    
+    init(title: String, color: Color, values: [Double], cellWidth: CGFloat, cellSpacing: CGFloat, maxHeight: CGFloat) {
+        self.title = title
+        self.color = color
+        self.values = values
+        self.cellWidth = cellWidth
+        self.cellSpacing = cellSpacing
+        self.maxHeight = maxHeight
+    }
     
     var body: some View {
         VStack {
@@ -33,9 +58,9 @@ struct BarChartView: View {
                 .font(.title)
                 .padding()
             Spacer(minLength: 20)
-            HStack(alignment: .bottom) {
+            HStack(alignment: .bottom, spacing: self.cellSpacing) {
                 ForEach(0..<values.count) { i in
-                    BarChartCell(width: 40, height: CGFloat(values[i] * 300), color: color)
+                    BarChartCell(width: self.cellWidth, height: CGFloat(CGFloat(values[i]) * self.maxHeight), color: color)
                 }
             }
         }
