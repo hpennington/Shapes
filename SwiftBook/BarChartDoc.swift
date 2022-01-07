@@ -24,6 +24,7 @@ struct BarChartBasic: View {
         }
         SwiftBookArgsTable {
             SwiftBookArgRow(title: "title", description: "The title of the bar chart", type: .string)
+            SwiftBookArgRow(title: "color", description: "The color of the bar chart", type: .color)
         }
         
     }
@@ -53,7 +54,7 @@ struct BarChartCustom: View {
         }
         SwiftBookArgsTable {
             SwiftBookArgRow(title: "title", description: "The title of the bar chart", type: .string)
-            SwiftBookArgRow(title: "color", description: "The title of the bar chart", type: .color)
+            SwiftBookArgRow(title: "color", description: "The color of the bar chart", type: .color)
             SwiftBookArgRow(title: "cellWidth", description: "The bar width. (Defaults to 40)", type: .double)
             SwiftBookArgRow(title: "celllSpacing", description: "The space between the cells. (Defaults to 8)", type: .double)
             SwiftBookArgRow(title: "maxHeight", description: "The height of a value at 1.0. (Defaults to 300)", type: .double)
