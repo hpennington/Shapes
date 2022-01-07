@@ -21,6 +21,10 @@
 		F8388AE0278013D500032790 /* RectangleDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */; };
 		F8388AE22780142200032790 /* SwiftBook in Frameworks */ = {isa = PBXBuildFile; productRef = F8388AE12780142200032790 /* SwiftBook */; };
 		F8388AE42780142700032790 /* SwiftBook in Frameworks */ = {isa = PBXBuildFile; productRef = F8388AE32780142700032790 /* SwiftBook */; };
+		F882670327880B2700CCDD9A /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F882670227880B2700CCDD9A /* BarChartView.swift */; };
+		F882670427880B2700CCDD9A /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F882670227880B2700CCDD9A /* BarChartView.swift */; };
+		F882670627880D7B00CCDD9A /* BarChartDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F882670527880D7B00CCDD9A /* BarChartDoc.swift */; };
+		F882670727880D7B00CCDD9A /* BarChartDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F882670527880D7B00CCDD9A /* BarChartDoc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +39,8 @@
 		F8715A07275836B500FFFA16 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		F8715A0C275836FF00FFFA16 /* CircleDoc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleDoc.swift; sourceTree = "<group>"; };
 		F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleDoc.swift; sourceTree = "<group>"; };
+		F882670227880B2700CCDD9A /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		F882670527880D7B00CCDD9A /* BarChartDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartDoc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,7 @@
 			children = (
 				F8715A07275836B500FFFA16 /* CircleView.swift */,
 				F8715A06275836B500FFFA16 /* RectangleView.swift */,
+				F882670227880B2700CCDD9A /* BarChartView.swift */,
 			);
 			path = Shapes;
 			sourceTree = "<group>";
@@ -119,6 +126,7 @@
 			children = (
 				F8715A0C275836FF00FFFA16 /* CircleDoc.swift */,
 				F8715A0D275836FF00FFFA16 /* RectangleDoc.swift */,
+				F882670527880D7B00CCDD9A /* BarChartDoc.swift */,
 			);
 			path = SwiftBook;
 			sourceTree = "<group>";
@@ -236,11 +244,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F882670627880D7B00CCDD9A /* BarChartDoc.swift in Sources */,
 				F8388ADD278013D500032790 /* CircleView.swift in Sources */,
 				F8388ADE278013D500032790 /* RectangleView.swift in Sources */,
 				F8388ADF278013D500032790 /* CircleDoc.swift in Sources */,
 				F8388AE0278013D500032790 /* RectangleDoc.swift in Sources */,
 				F8388ACC2780139000032790 /* SwiftBookApp.swift in Sources */,
+				F882670327880B2700CCDD9A /* BarChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,11 +258,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F882670727880D7B00CCDD9A /* BarChartDoc.swift in Sources */,
 				F8388AD9278013D000032790 /* CircleView.swift in Sources */,
 				F8388ADA278013D000032790 /* RectangleView.swift in Sources */,
 				F8388ADB278013D000032790 /* CircleDoc.swift in Sources */,
 				F8388ADC278013D000032790 /* RectangleDoc.swift in Sources */,
 				F8388ACD2780139000032790 /* SwiftBookApp.swift in Sources */,
+				F882670427880B2700CCDD9A /* BarChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

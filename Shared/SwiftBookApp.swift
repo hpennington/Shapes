@@ -13,6 +13,7 @@ struct SwiftBookApp: App {
     var body: some Scene {
         SwiftBookWindowGroup {
             SwiftBook([
+                ("BarChartView", AnyView(BarChartDoc())),
                 ("CircleView", AnyView(CircleDoc())),
                 ("RectangleView", AnyView(RectangleDoc())),
             ])
