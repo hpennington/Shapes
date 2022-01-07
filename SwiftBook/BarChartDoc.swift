@@ -36,13 +36,14 @@ struct BarChartCustom: View {
     @State private var cellWidth: Double = 10
     @State private var cellSpacing: Double = 10
     @State private var maxHeight: Double = 200
+    @State private var cornerRadius: Double = 8
     
     let values = [0.1, 0.25, 0.125, 0.5, 0.75, 0.55, 0.178, 0.25, 0.375, 0.5, 0.315, 0.90, 0.76, 0.15, 0.15, 0.15, 0.175, 0.945, 0.785, 0.5, 0.375, 0.35, 0.95, 0.35]
     
     var body: some View {
         H3("Custom BarChart with knobs to control the parameters.")
         SwiftBookComponent {
-            BarChartView(title: title, color: color, values: values, cellWidth: CGFloat(cellWidth), cellSpacing: CGFloat(cellSpacing), maxHeight: CGFloat(maxHeight))
+            BarChartView(title: title, color: color, values: values, cellWidth: CGFloat(cellWidth), cellSpacing: CGFloat(cellSpacing), maxHeight: CGFloat(maxHeight), cornerRadius: CGFloat(cornerRadius))
         }
         SwiftBookControlTable {
             SwiftBookControlText(text: $title, label: "title")
@@ -50,6 +51,7 @@ struct BarChartCustom: View {
             SwiftBookControlDouble(value: $cellWidth, label: "cellWidth")
             SwiftBookControlDouble(value: $cellSpacing, label: "cellSpacing")
             SwiftBookControlDouble(value: $maxHeight, label: "maxHeight")
+            SwiftBookControlDouble(value: $cornerRadius, label: "cornerRadius")
         
         }
         SwiftBookArgsTable {
@@ -58,6 +60,7 @@ struct BarChartCustom: View {
             SwiftBookArgRow(title: "cellWidth", description: "The bar width. (Defaults to 40)", type: .double)
             SwiftBookArgRow(title: "celllSpacing", description: "The space between the cells. (Defaults to 8)", type: .double)
             SwiftBookArgRow(title: "maxHeight", description: "The height of a value at 1.0. (Defaults to 300)", type: .double)
+            SwiftBookArgRow(title: "cornerRadius", description: "The cell corner radius. (Defaults to 8)", type: .double)
         }
         
     }
