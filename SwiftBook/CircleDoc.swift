@@ -44,9 +44,7 @@ struct CircleRed: View {
     @State private var labelColor: Color = .primary
     
     var body: some View {
-        H2("A red circle")
-        H3("This is a description of a red circle.")
-        SwiftBookComponent {
+        Bookable(title: "A red circle", detail: "This is a description of a red circle.") {
             CircleView(color: color, label: label, labelColor: labelColor)
         }
         SwiftBookControlTable {
@@ -67,14 +65,10 @@ struct CircleDoc: View {
     }
     
     var body: some View {
-        H1("CircleView")
-        P("A View which is a circle.")
-        VStack {
+        SwiftBookDoc(title: "CircleView", detail: "A View which is a circle.") {
             CircleBlue()
             ArgsTable()
-        }
-        Spacer(minLength: 100)
-        VStack {
+            Space()
             CircleRed()
             ArgsTable()
         }

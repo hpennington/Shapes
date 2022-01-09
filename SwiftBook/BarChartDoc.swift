@@ -15,7 +15,7 @@ struct BarChartBasic: View {
     let values = [0.1, 0.25, 0.125, 0.5, 0.75, 0.55, 0.178, 0.25, 0.375, 0.5, 0.65, 0.55]
     
     var body: some View {
-        SwiftBookComponent {
+        Bookable(title: "Basic BarChart", detail: "A simple barchart for demonstration purposes.") {
             BarChartView(title: title, color: color, values: values)
         }
         SwiftBookControlTable {
@@ -41,8 +41,7 @@ struct BarChartCustom: View {
     let values = [0.1, 0.25, 0.125, 0.5, 0.75, 0.55, 0.178, 0.25, 0.375, 0.5, 0.315, 0.90, 0.76, 0.15, 0.15, 0.15, 0.175, 0.945, 0.785, 0.5, 0.375, 0.35, 0.95, 0.35]
     
     var body: some View {
-        H3("Custom BarChart with knobs to control the parameters.")
-        SwiftBookComponent {
+        Bookable(title: "Custom BarChart", detail: "Custom BarChart with knobs to control the parameters.") {
             BarChartView(title: title, color: color, values: values, cellWidth: CGFloat(cellWidth), cellSpacing: CGFloat(cellSpacing), maxHeight: CGFloat(maxHeight), cornerRadius: CGFloat(cornerRadius))
         }
         SwiftBookControlTable {
@@ -68,11 +67,13 @@ struct BarChartCustom: View {
 
 struct BarChartDoc: View {
     var body: some View {
-        H1("BarChartView")
-        P("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.")
-        P("It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.")
-        BarChartBasic()
-        Spacer(minLength: 80)
-        BarChartCustom()
+        SwiftBookDoc(
+            title: "BarChartView",
+            detail: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        ) {
+            BarChartBasic()
+            Space()
+            BarChartCustom()
+        }
     }
 }
