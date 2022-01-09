@@ -18,13 +18,13 @@ struct BarChartBasic: View {
         Bookable(title: "Basic BarChart", detail: "A simple barchart for demonstration purposes.") {
             BarChartView(title: title, color: color, values: values)
         }
-        SwiftBookControlTable {
-            SwiftBookControlText(text: $title, label: "title")
-            SwiftBookControlColor(color: $color, title: "color")
+        ControlsTable {
+            ControlText(text: $title, label: "title")
+            ControlColor(color: $color, title: "color")
         }
-        SwiftBookArgsTable {
-            SwiftBookArgRow(title: "title", description: "The title of the bar chart", type: .string)
-            SwiftBookArgRow(title: "color", description: "The color of the bar chart", type: .color)
+        ArgumentsTable {
+            ArgumentRow(title: "title", description: "The title of the bar chart", type: .string)
+            ArgumentRow(title: "color", description: "The color of the bar chart", type: .color)
         }
         
     }
@@ -44,22 +44,22 @@ struct BarChartCustom: View {
         Bookable(title: "Custom BarChart", detail: "Custom BarChart with knobs to control the parameters.") {
             BarChartView(title: title, color: color, values: values, cellWidth: CGFloat(cellWidth), cellSpacing: CGFloat(cellSpacing), maxHeight: CGFloat(maxHeight), cornerRadius: CGFloat(cornerRadius))
         }
-        SwiftBookControlTable {
-            SwiftBookControlText(text: $title, label: "title")
-            SwiftBookControlColor(color: $color, title: "color")
-            SwiftBookControlDouble(value: $cellWidth, label: "cellWidth")
-            SwiftBookControlDouble(value: $cellSpacing, label: "cellSpacing")
-            SwiftBookControlDouble(value: $maxHeight, label: "maxHeight")
-            SwiftBookControlDouble(value: $cornerRadius, label: "cornerRadius")
+        ControlsTable {
+            ControlText(text: $title, label: "title")
+            ControlColor(color: $color, title: "color")
+            ControlDouble(value: $cellWidth, label: "cellWidth")
+            ControlDouble(value: $cellSpacing, label: "cellSpacing")
+            ControlDouble(value: $maxHeight, label: "maxHeight")
+            ControlDouble(value: $cornerRadius, label: "cornerRadius")
         
         }
-        SwiftBookArgsTable {
-            SwiftBookArgRow(title: "title", description: "The title of the bar chart", type: .string)
-            SwiftBookArgRow(title: "color", description: "The color of the bar chart", type: .color)
-            SwiftBookArgRow(title: "cellWidth", description: "The bar width. (Defaults to 40)", type: .double)
-            SwiftBookArgRow(title: "celllSpacing", description: "The space between the cells. (Defaults to 8)", type: .double)
-            SwiftBookArgRow(title: "maxHeight", description: "The height of a value at 1.0. (Defaults to 300)", type: .double)
-            SwiftBookArgRow(title: "cornerRadius", description: "The cell corner radius. (Defaults to 8)", type: .double)
+        ArgumentsTable {
+            ArgumentRow(title: "title", description: "The title of the bar chart", type: .string)
+            ArgumentRow(title: "color", description: "The color of the bar chart", type: .color)
+            ArgumentRow(title: "cellWidth", description: "The bar width. (Defaults to 40)", type: .double)
+            ArgumentRow(title: "celllSpacing", description: "The space between the cells. (Defaults to 8)", type: .double)
+            ArgumentRow(title: "maxHeight", description: "The height of a value at 1.0. (Defaults to 300)", type: .double)
+            ArgumentRow(title: "cornerRadius", description: "The cell corner radius. (Defaults to 8)", type: .double)
         }
         
     }
@@ -67,7 +67,7 @@ struct BarChartCustom: View {
 
 struct BarChartDoc: View {
     var body: some View {
-        SwiftBookDoc(
+        Document(
             title: "BarChartView",
             detail: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
         ) {
